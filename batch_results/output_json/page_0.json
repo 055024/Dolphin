@@ -1,0 +1,124 @@
+[
+  {
+    "label": "header",
+    "bbox": [
+      671,
+      91,
+      944,
+      127
+    ],
+    "text": "PATTERN FOR PYTHON",
+    "reading_order": 0,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      219,
+      238,
+      1405,
+      458
+    ],
+    "text": "pattern.graph Graph data structure using Node , Edge and Graph classes, useful (for example)\nfor modeling semantic networks. The module has algorithms for shortest path finding, subgraph par-\ntitioning, eigenvector centrality and betweenness centrality (Brandes, 2001) . Centrality algorithms\nwere ported from NETWORKX . The module has a force-based layout algorithm that positions nodes\nin 2D space. Visualizations can be exported to HTML and manipulated in a browser (using our\ncanvas.js helper module for the HTML5 Canvas2D element).",
+    "reading_order": 1,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      219,
+      466,
+      1402,
+      577
+    ],
+    "text": "pattern.metrics Descriptive statistics functions. Evaluation metrics including a code profiler,\nfunctions for accuracy, precision and recall, confusion matrix, inter-rater agreement (Fleiss' kappa),\nstring similarity (Levenshtein, Dice) and readability (Flesch).",
+    "reading_order": 2,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      263,
+      584,
+      1099,
+      621
+    ],
+    "text": "pattern.db Wrappers for CSV files and SQLITE and MYSQL databases.",
+    "reading_order": 3,
+    "tags": []
+  },
+  {
+    "label": "sec_1",
+    "bbox": [
+      219,
+      672,
+      480,
+      715
+    ],
+    "text": "3. Example Script",
+    "reading_order": 4,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      219,
+      740,
+      1405,
+      961
+    ],
+    "text": "As an example, we chain together four PATTERN modules to train a $k$ -NN classifier on adjectives\nmined from Twitter. First, we mine 1,500 tweets with the hashtag # win or # fail (our classes), for\nexample: “ $20 tip off a sweet little old lady today # win ” . We parse the part-of-speech tags for\neach tweet, keeping adjectives. We group the adjective vectors in a corpus and use it to train the\nclassifier. It predicts “ sweet ” as WIN and “ stupid ” as FAIL . The results may vary depending on what\nis currently buzzing on Twitter.",
+    "reading_order": 5,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      220,
+      968,
+      1402,
+      1043
+    ],
+    "text": "The source code is shown in Figure 2 . Its size is representative for many real-world scenarios,\nalthough a real-world classifier may need more training data and more rigorous feature selection.",
+    "reading_order": 6,
+    "tags": []
+  },
+  {
+    "label": "code",
+    "bbox": [
+      338,
+      1116,
+      1279,
+      1782
+    ],
+    "text": "from pattern.web    import Twitter\nfrom pattern.en    import Sentence, parse\nfrom pattern.search import search\nfrom pattern.vector import Document, Corpus, KNN\ncorpus = Corpus()\nfor i in range(1,15):\n    for tweet in Twitter().search('#win OR #fail', start=i, count=100):\n        p = '#win' in tweet.description.lower() and 'WIN' or 'FAIL'\n        s = tweet.description.lower()\n        s = Sentence(parse(s))\n        s = search('JJ', s)  # JJ = adjective\n        s = [match[0].string for match in s]\n        s = ' '.join(s)\n        if len(s) > 0:\n            corpus.append(Document(s, type=p))\nclassifier = KNN()\nfor document in corpus:\n    classifier.train(document)\nprint classifier.classify('sweet')  # yields 'WIN'\nprint classifier.classify('stupid')  # yields 'FAIL'd",
+    "reading_order": 7,
+    "tags": []
+  },
+  {
+    "label": "cap",
+    "bbox": [
+      323,
+      1870,
+      1297,
+      1910
+    ],
+    "text": "Figure 2: Example source code for a $k$-NN classifier trained on Twitter messages.",
+    "reading_order": 8,
+    "tags": []
+  },
+  {
+    "label": "foot",
+    "bbox": [
+      778,
+      1952,
+      841,
+      1985
+    ],
+    "text": "2065",
+    "reading_order": 9,
+    "tags": [
+      "page_num"
+    ]
+  }
+]

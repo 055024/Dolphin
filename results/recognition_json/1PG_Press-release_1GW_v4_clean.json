@@ -1,0 +1,158 @@
+{
+  "source_file": "./1PG_Press-release_1GW_v4_clean.pdf",
+  "total_pages": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "elements": [
+        {
+          "label": "fig",
+          "text": "![Figure](figures/1PG_Press-release_1GW_v4_clean_page_001_figure_000.png)",
+          "figure_path": "figures/1PG_Press-release_1GW_v4_clean_page_001_figure_000.png",
+          "bbox": [
+            78,
+            20,
+            112,
+            76
+          ],
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "header",
+          "bbox": [
+            113,
+            30,
+            240,
+            71
+          ],
+          "text": "AYANA\n\nREISENGE POWER HOUSE LAUNCO",
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            78,
+            112,
+            153,
+            128
+          ],
+          "text": "Press Release",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            78,
+            137,
+            147,
+            153
+          ],
+          "text": "Jan 24, 2022",
+          "reading_order": 3,
+          "tags": [
+            "meta_pub_date"
+          ]
+        },
+        {
+          "label": "sec_0",
+          "bbox": [
+            79,
+            163,
+            568,
+            182
+          ],
+          "text": "NIIF Backed Ayana Renewable crosses 1 GWac Operational Portfolio mark",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            78,
+            193,
+            613,
+            258
+          ],
+          "text": "Ayana Renewable Power Private Limited (\"Ayana\"), a renewable energy platform majority controlled by\nNational Investment and Infrastructure Fund (\"NIF\"), today announced that its portfolio has crossed 1\nGWac of operational renewable energy capacity. With an operating portfolio of 1.19 GWac, Ayana is one\nof the largest RE developers in India.",
+          "reading_order": 5,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            78,
+            266,
+            614,
+            382
+          ],
+          "text": "This significant milestone was achieved with the commissioning of the 300 MWac Interstate Transmission\nSystem (ISTS) connected Solar PV project at Bikaner, Rajasthan. The project is spread across approximately\n1500 acres and is connected to 765/400 KV PGCIL Grid Substation. The power generated from the project\nwill be supplied to SECI under a 25-year Power Purchase Agreement. As one of the largest projects\ndeveloped by Ayana to date, the project has generated employment for close to 2000 people. In addition,\nthe project is expected to meet the equivalent demand of 1,41,000 end consumers, and it is estimated to\nhelp avoid 6,23,000 tonnes of annual CO2 emissions over 20 years.",
+          "reading_order": 6,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            78,
+            390,
+            614,
+            492
+          ],
+          "text": "Mr. Shivanand Nimbargi, MD and CEO of Ayana, said, \"We started Ayana with a vision to create significant\n\nrenewable energy capacity across India, complementing it with the development of communities around\n\nus. With the support of our stakeholders, we have achieved this significant milestone of 1 GWac\n\noperational renewable energy capacity, which is in line with our long-term goal to achieve 10 GWac of\n\nrenewable energy portfolio by 2025. We will continue to accelerate and contribute to meeting India's\n\nenergy transition plan of having an RE capacity of 500 GWac by 2030.\"",
+          "reading_order": 7,
+          "tags": []
+        },
+        {
+          "label": "sec_1",
+          "bbox": [
+            79,
+            525,
+            329,
+            540
+          ],
+          "text": "About Ayana Renewable Power Private Limited:",
+          "reading_order": 8,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            78,
+            542,
+            613,
+            608
+          ],
+          "text": "Ayana Renewable Power Private Limited (\"Ayana\"), headquartered in Bangalore, is controlled by National \nInvestment and Infrastructure Fund (NIF). Ayana was founded in 2018. CDC Group, UK's development \nfinance institution and EverSource Capital managed Green Growth Equity Fund (GGEF) are other \nshareholders in the platform.",
+          "reading_order": 9,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            78,
+            608,
+            613,
+            657
+          ],
+          "text": "The platform develops utility-scale renewable power, solar, wind and RE hybrid projects across India to\nbuild cost-effective capacity. NIIF, CDC Group and GGEF as shareholders bring complementary strengths\nto the platform that has been built with a strong focus on governance and compliance.",
+          "reading_order": 10,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            78,
+            658,
+            612,
+            691
+          ],
+          "text": "Ayana is currently engaged in the development and management of over 3 GWac of renewable energy\ncapacity across multiple Indian states and has a strong pipeline of renewable energy opportunities.",
+          "reading_order": 11,
+          "tags": []
+        }
+      ]
+    }
+  ]
+}

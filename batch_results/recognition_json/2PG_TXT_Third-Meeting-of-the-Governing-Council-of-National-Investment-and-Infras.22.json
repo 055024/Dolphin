@@ -1,0 +1,210 @@
+{
+  "source_file": "./test-docs/2PG_TXT_Third-Meeting-of-the-Governing-Council-of-National-Investment-and-Infras.22.pdf",
+  "total_pages": 2,
+  "pages": [
+    {
+      "page_number": 1,
+      "elements": [
+        {
+          "label": "header",
+          "bbox": [
+            258,
+            19,
+            372,
+            37
+          ],
+          "text": "Ministry of Finance",
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "sec_1",
+          "bbox": [
+            32,
+            49,
+            598,
+            168
+          ],
+          "text": "Third Meeting of the Governing Council of National\nInvestment and Infrastructure Fund (NIIF) held today\nunder the Chairmanship of Finance Minister, Shri\n\n\nArun Jaitley;",
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            34,
+            182,
+            596,
+            271
+          ],
+          "text": "FM reviews the performance of NIIF so far and road\nahead; A first close of NIIF is expected very soon as\nfar as fund raising is concerned.",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            197,
+            312,
+            434,
+            330
+          ],
+          "text": "Posted On: 14 JUL 2017 4:19PM by PIB Delhi",
+          "reading_order": 3,
+          "tags": [
+            "meta_pub_date"
+          ]
+        },
+        {
+          "label": "para",
+          "bbox": [
+            30,
+            361,
+            602,
+            420
+          ],
+          "text": "The 24th Meeting of the Governing Council of the \"National Investment and Infrastructure Fund (NIF)\" was held \nhere today under the Chairmanship of the Union Finance Minister, Shri Arun Jaitley where in the Finance Minister \nreviewed the performance of NIF so far and action taken by it in order to attract investment from foreign Soverign \nWealth Funds among others in the infrastructure sector in the country.",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            30,
+            427,
+            133,
+            443
+          ],
+          "text": "It was informed that",
+          "reading_order": 5,
+          "tags": []
+        },
+        {
+          "label": "list",
+          "bbox": [
+            31,
+            473,
+            601,
+            566
+          ],
+          "text": "(i) Strong investment pipeline with investment opportunities is under consideration in the roads, ports, aviation\nand power sectors.\n(ii) NIF is Considering investments in third party managed funds focused on clean energy(Green Growth Fund\nalready committed), affordable housing and medium sized infrastructure companies",
+          "reading_order": 6,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            30,
+            596,
+            601,
+            627
+          ],
+          "text": "The Governing Council expressed its desire for NIF to function as a major platform in India, to leverage and\nattract overseas long-term investments in various infrastructure sectors in the Country.",
+          "reading_order": 7,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            30,
+            656,
+            395,
+            673
+          ],
+          "text": "As far as the issue of the Fund raising is concerned, it was informed that:",
+          "reading_order": 8,
+          "tags": []
+        },
+        {
+          "label": "list",
+          "bbox": [
+            30,
+            704,
+            601,
+            861
+          ],
+          "text": "(i) Master Contribution Agreement has been signed between Secretary, Department of Economic Affairs, Ministry\nof Finance, Government of India (As the \"Contributor\") and National Investment and Infrastructure Fund Limited\n(NIIFL) ( As the \"Investment Manager\"). The Agreement has been executed to formalize the commitment of INR\n20,000 crores by Government of India to National Investment and Infrastructure Fund (NIIF).\n(ii) Following this Agreement, steady progress on fund-raising efforts with several international institutional\ninvestors, following-up on MoUs signed by Govt of India has been made. A first close of NIIF is expected very\nsoon.\n(iii) The NIIF Governance Structure has been developed with technical assistance from DFID, UK which has been\nfurther reviewed and confirmed by Stanford University's Global Project Centre under the MOU with the US\nTreasury.",
+          "reading_order": 9,
+          "tags": []
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "elements": [
+        {
+          "label": "para",
+          "bbox": [
+            31,
+            44,
+            407,
+            59
+          ],
+          "text": "As far as the Operational Status of NIF is concerned, it was informed that :",
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            30,
+            90,
+            601,
+            134
+          ],
+          "text": "( i ) A team of twelve staff, including the CEO, National Investment and Infrastructure Fund Limited is now in\nplace. Further recruitments of high quality staff through a global search process is underway. Strong international\nresponse to hiring efforts and advertisements for recruitment of expert staff has been received.",
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            30,
+            165,
+            601,
+            195
+          ],
+          "text": "(ii) The establishment of NIF's permanent Delhi office is complete and the establishment of its head office in\nMumbai is currently under refurbishment. NIF staff are already operating in a hired space.",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            31,
+            203,
+            601,
+            245
+          ],
+          "text": "Shri Subhash Chandra Garg, Secretary, Department of Economic Affairs (DEA), Ms Anjuly Chib Duggal,\nSecretary, Department of Financial Services (DFS), Shri T.V. Mohandas Pai and Shri Hemodia Kothari, Members\nof the Governing Council and other senior officials were present during the aforesaid meeting.",
+          "reading_order": 3,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            31,
+            298,
+            106,
+            314
+          ],
+          "text": "DSM/SBS/KA",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            31,
+            370,
+            164,
+            387
+          ],
+          "text": "(Release ID: 1495635)",
+          "reading_order": 5,
+          "tags": []
+        }
+      ]
+    }
+  ]
+}

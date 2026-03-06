@@ -1,0 +1,17 @@
+{
+  "Document_ID": "1PG_Press-release_1GW_v4_clean.pdf",
+  "WER": 0.036,
+  "CER": 0.0184,
+  "Substitutions": 9,
+  "Deletions": 0,
+  "Insertions": 1,
+  "Text_Accuracy": 0.9816,
+  "Structure_Score": 0.6667,
+  "Table_Structure_Score": 1.0,
+  "Layout_Score": 0.8333,
+  "Processing_Time_Seconds": 180.0,
+  "Ground_Truth_Words": 389,
+  "Dolphin_Output_Words": 394,
+  "Ground_Truth_Chars": 2554,
+  "Dolphin_Output_Chars": 2587
+}

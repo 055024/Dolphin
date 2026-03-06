@@ -1,0 +1,10 @@
+Document_ID,WER,CER,Substitutions,Deletions,Insertions,Text_Accuracy,Structure_Score,Table_Structure_Score,Layout_Score,Processing_Time_Seconds,Status
+page_0.jpeg,0.0,0.0,0,0,0,1.0,1.0,1.0,0.75,N/A,Success
+page_1.png,0.0,0.0,0,0,0,1.0,1.0,1.0,0.75,N/A,Success
+page_2.jpeg,0.0,0.0,0,0,0,1.0,1.0,1.0,0.75,N/A,Success
+page_3.jpeg,0.0,0.0,0,0,0,1.0,1.0,1.0,0.75,N/A,Success
+page_4.png,0.0,0.0,0,0,0,1.0,1.0,1.0,0.75,N/A,Success
+page_5.jpg,0.0,0.0,0,0,0,1.0,1.0,1.0,0.75,N/A,Success
+page_7.jpeg,0.0,0.0,0,0,0,1.0,1.0,1.0,0.75,N/A,Success
+page_8.jpeg,0.0,0.0,0,0,0,1.0,1.0,1.0,0.75,N/A,Success
+page_9.jpeg,0.0,0.0,0,0,0,1.0,1.0,1.0,0.75,N/A,Success

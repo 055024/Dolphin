@@ -1,0 +1,11 @@
+Document_ID,WER,CER,Substitutions,Deletions,Insertions,Text_Accuracy,Structure_Score,Table_Structure_Score,Layout_Score,Processing_Time_Seconds,Status
+1PG_Press-release_1GW_v4_clean.pdf,0.036,0.0184,9,0,1,0.9816,0.6667,1.0,0.8333,N/A,Success
+1PG_TXT_DP-World-signs-MOU-with-Indian-National-Investment-and-Infrastructure-Fu.pdf,0.034,0.0054,11,0,1,0.9946,0.3636,0.0,0.6818,N/A,Success
+2PG_TXT_Press-Release-NIIF-Sells-Two-Road-Assets-To-Cube-Highways.pdf,0.2636,0.154,95,13,7,0.846,0.4583,1.0,0.7292,N/A,Success
+2PG_TXT_Press-Release-NIIF-and-Abu-Dhabi-Investment-Authority-finalise-investment-agreement-worth-US-1-billion-October-16-2017-converted.pdf,0.0615,0.0138,19,2,0,0.9862,0.913,1.0,0.9565,N/A,Success
+2PG_TXT_Third-Meeting-of-the-Governing-Council-of-National-Investment-and-Infras.22.pdf,0.0484,0.0099,16,5,1,0.9901,0.5517,0.0,0.7759,N/A,Success
+14pg_txt+Sci For_AI_generality_Mccarthy 1959.pdf,0.1337,0.0304,207,11,62,0.9696,0.7698,1.0,0.8849,2267.38,Success
+20PGS_1COL_TEXT+FIG+TABLES.pdf,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,3600.66,Processing Failed
+3PG_PLAIN TEXT_NIIFs-India-Japan-Fund-invests-INR-500-cr-US-57-mn-in-EKA-Mobility.pdf,0.0576,0.0111,42,2,2,0.9889,0.8421,1.0,0.9211,464.52,Success
+47pg_photo+2col+fig+charts+table_capegemini 2024.pdf,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,3600.73,Processing Failed
+85pg_photo+Table+3 Col+Fig _curro holding 2024.pdf,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,3600.73,Processing Failed

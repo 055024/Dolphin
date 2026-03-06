@@ -1,0 +1,2 @@
+Document_ID,WER,CER,Substitutions,Deletions,Insertions,Text_Accuracy,Structure_Score,Table_Structure_Score,Layout_Score,Processing_Time_Seconds,Ground_Truth_Words,Dolphin_Output_Words,Ground_Truth_Chars,Dolphin_Output_Chars
+1PG_Press-release_1GW_v4_clean.pdf,0.036,0.0184,9,0,1,0.9816,0.6667,1.0,0.8333,180.0,389,394,2554,2587

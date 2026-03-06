@@ -3,9 +3,19 @@ Copyright (c) 2025 Bytedance Ltd. and/or its affiliates
 SPDX-License-Identifier: MIT
 """
 
+# CRITICAL: Set environment variables BEFORE any imports
+import os
+os.environ['DS_BUILD_OPS'] = '0'
+os.environ['DS_BUILD_SPARSE_ATTN'] = '0'
+os.environ['CUDA_HOME'] = '/home/ashok/Documents/GitHub/Dolphin/fake_cuda'
+
 import argparse
 import glob
 import os
+
+# Set environment variables to disable DeepSpeed ops compilation
+os.environ['DS_BUILD_OPS'] = '0'
+os.environ['DS_BUILD_SPARSE_ATTN'] = '0'
 
 import torch
 from PIL import Image
@@ -24,17 +34,19 @@ class DOLPHIN:
         """
         # Load model from local path or Hugging Face hub
         self.processor = AutoProcessor.from_pretrained(model_id_or_path)
-        self.model = Qwen2_5_VLForConditionalGeneration.from_pretrained(model_id_or_path)
+        
+        # Force CPU due to limited GPU memory (4GB GPU)
+        print("Loading model on CPU due to GPU memory constraints...")
+        self.model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
+            model_id_or_path,
+            device_map="cpu",
+            torch_dtype=torch.float32
+        )
         self.model.eval()
         
-        # Set device and precision
-        self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        self.model.to(self.device)
-
-        if self.device == "cuda":
-            self.model = self.model.bfloat16()
-        else:
-            self.model = self.model.float()
+        # Set device
+        self.device = "cpu"
+        print(f"Model loaded successfully on {self.device}")
         
         # set tokenizer
         self.tokenizer = self.processor.tokenizer

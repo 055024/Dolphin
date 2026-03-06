@@ -1,0 +1,6 @@
+Document_ID,WER,CER,Substitutions,Deletions,Insertions,Text_Accuracy,Structure_Score,Table_Structure_Score,Layout_Score,Processing_Time_Seconds,Status
+1PG_Press-release_1GW_v4_clean.pdf,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,162.33,Processing Failed
+1PG_TXT_DP-World-signs-MOU-with-Indian-National-Investment-and-Infrastructure-Fu.pdf,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,165.17,Processing Failed
+2PG_TXT_Press-Release-NIIF-Sells-Two-Road-Assets-To-Cube-Highways.pdf,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,347.24,Processing Failed
+2PG_TXT_Press-Release-NIIF-and-Abu-Dhabi-Investment-Authority-finalise-investment-agreement-worth-US-1-billion-October-16-2017-converted.pdf,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,262.39,Processing Failed
+2PG_TXT_Third-Meeting-of-the-Governing-Council-of-National-Investment-and-Infras.22.pdf,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,263.81,Processing Failed

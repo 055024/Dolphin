@@ -1,0 +1,144 @@
+{
+  "source_file": "./test-docs/1PG_TXT_DP-World-signs-MOU-with-Indian-National-Investment-and-Infrastructure-Fu.pdf",
+  "total_pages": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "elements": [
+        {
+          "label": "fig",
+          "text": "![Figure](figures/1PG_TXT_DP-World-signs-MOU-with-Indian-National-Investment-and-Infrastructure-Fu_page_001_figure_000.png)",
+          "figure_path": "figures/1PG_TXT_DP-World-signs-MOU-with-Indian-National-Investment-and-Infrastructure-Fu_page_001_figure_000.png",
+          "bbox": [
+            74,
+            79,
+            287,
+            130
+          ],
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "header",
+          "bbox": [
+            520,
+            82,
+            612,
+            99
+          ],
+          "text": "Media release",
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "sec_0",
+          "bbox": [
+            97,
+            167,
+            594,
+            234
+          ],
+          "text": "DP WORLD SIGNS MOU WITH THE INDIAN NATIONAL\nINVESTMENT AND INFRASTRUCTURE FUND (NIIF) TO\nDEVELOP LOGISTICS INFRASTRUCTURE",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "sec_1",
+          "bbox": [
+            105,
+            248,
+            585,
+            289
+          ],
+          "text": "DP World and National Investment and Infrastructure Fund\n(NIIF) to back future infrastructure projects",
+          "reading_order": 3,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            78,
+            301,
+            608,
+            348
+          ],
+          "text": "New Delhi, India, 4 May, 2017: Global trade enabler DP World and the National Investment\nand Infrastructure Fund (NIF) have signed a Memorandum of Understanding (MoU) to develop\nthe logistics sector in India.",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            78,
+            362,
+            610,
+            423
+          ],
+          "text": "The agreement comes as a result of the visit to India in February 2016 of His Highness Sheikh\nMohammed bin Zayed Al Nahyan, Crown Prince of Abu Dhabi and Deputy Supreme Commander\nof the Armed Forces of the United Arab Emirates and Sultan Ahmed bin Sulayem. DP World\nGroup Chairman and CEO.",
+          "reading_order": 5,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            78,
+            436,
+            605,
+            512
+          ],
+          "text": "DP World announced at the time that it was seeking opportunities in the country worth over $1\nbillion over the next few years. This will be aimed at development of port infrastructure of the\nSagarmala project, creation of the Delhi – Mumbai Industrial Corridor, river transportation and\ncold chain storage, investing in port-led special economic zones, free trade zones, ICDs and\ncruise terminals.",
+          "reading_order": 6,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            78,
+            526,
+            611,
+            603
+          ],
+          "text": "DP World Group Chairman and CEO, Sultan Ahmed Bin Sulayem, said: “We have been a\npart of India’s growth story for nearly two decades now and we are delighted to further\nstrengthen this relationship with the National Investment and Infrastructure Fund (NIIF). The\nNIIF plays a crucial role in financing India’s infrastructure and we welcome their approach to\nencouraging development in the sector.",
+          "reading_order": 7,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            78,
+            616,
+            606,
+            678
+          ],
+          "text": "\"The agreement is a direct result of the visit last year of H.N. Sheikh Mohammed Bin Zayed and\nboth our organisations will work together in backing suitable projects. This will further develop\nPrime Minister Modi's \"Make in India\" and \"Invest India\" campaigns by encouraging foreign\ndirect investment (FDI) and funding for landmark projects like Sagarmala and Bharatmala.",
+          "reading_order": 8,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            78,
+            692,
+            597,
+            785
+          ],
+          "text": "“One of the key priorities of the Indian Government is preventing the loss of agricultural\nproduce. This can be managed through adequate marine and warehousing infrastructure\nincluding cold storage as well as development of inland waterways, reducing logistics costs at\nthe same time. We are proud to partner with the Government and share our expertise and\nexperience in these areas and the global supply chain to provide cost effective logistics and\nwarehousing solutions to India’s growing export and import trade.\n”",
+          "reading_order": 9,
+          "tags": []
+        },
+        {
+          "label": "foot",
+          "bbox": [
+            323,
+            798,
+            366,
+            814
+          ],
+          "text": "-ENDS-",
+          "reading_order": 10,
+          "tags": []
+        }
+      ]
+    }
+  ]
+}

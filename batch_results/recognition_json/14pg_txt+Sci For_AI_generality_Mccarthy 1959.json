@@ -1,0 +1,1623 @@
+{
+  "source_file": "./test-docs/14pg_txt+Sci For_AI_generality_Mccarthy 1959.pdf",
+  "total_pages": 14,
+  "pages": [
+    {
+      "page_number": 1,
+      "elements": [
+        {
+          "label": "sec_0",
+          "bbox": [
+            185,
+            188,
+            503,
+            245
+          ],
+          "text": "GENERALITY IN ARTIFICIAL\nINTELLIGENCE",
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            197,
+            261,
+            492,
+            414
+          ],
+          "text": "John McCarthy\nComputer Science Department\nStanford University\nStanford, CA 94305\njmc@cs.stanford.edu\nhttp://www-formal.stanford.edu/jmc/\n1971-1987",
+          "reading_order": 1,
+          "tags": [
+            "author",
+            "author_affili",
+            "author_mail",
+            "meta_pub_date"
+          ]
+        },
+        {
+          "label": "sec_1",
+          "bbox": [
+            315,
+            449,
+            373,
+            465
+          ],
+          "text": "Abstract",
+          "reading_order": 2,
+          "tags": [
+            "paper_abstract"
+          ]
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            501,
+            566,
+            600
+          ],
+          "text": "My 1971 Turing Award Lecture was entitled “ Generality in Artificial In-\ntelligence”. The topic turned out to have been overambitious in that I dis-\ncovered that I was unable to put my thoughts on the subject in a satisfactory\nwritten form at that time. It would have been better to have reviewed pre-\nvious work rather than attempt something new, but such wasn't my custom\nat that time.",
+          "reading_order": 3,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            600,
+            566,
+            714
+          ],
+          "text": "I am grateful to the ACM for the opportunity to try again. Unfortunately\nfor our science, although perhaps fortunately for this project, the problem of\ngenerality in AI is almost as unsolved as ever, although we now have many\nideas not available in 1971. This paper relies heavily on such ideas, but it is\nfar from a full 1986 survey of approaches for achieving generality. Ideas are\ndiscussed at a length proportional to my familiarity with them rather than\naccording to some objective criterion.",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            714,
+            566,
+            764
+          ],
+          "text": "It was obvious in 1971 and even in 1958 that AI programs suffered from\na lack of generality. It is still obvious, and now there are many more details.\nThe first gross symptom is that a small addition to the idea of a program",
+          "reading_order": 5,
+          "tags": []
+        },
+        {
+          "label": "foot",
+          "bbox": [
+            338,
+            782,
+            350,
+            797
+          ],
+          "text": "1",
+          "reading_order": 6,
+          "tags": [
+            "page_num"
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "elements": [
+        {
+          "label": "half_para",
+          "bbox": [
+            121,
+            143,
+            566,
+            209
+          ],
+          "text": "often involves a complete rewrite beginning with the data structures. Some\nprogress has been made in modularizing data structures, but small modifica-\ntions of the search strategies are even less likely to be accomplished without\nrewriting.",
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            121,
+            210,
+            567,
+            405
+          ],
+          "text": "Another symptom is that no-one knows how to make a general database\nof common sense knowledge that could be used by any program that needed\nthe knowledge. Along with other information, such a database would contain\nwhat a robot would need to know about the effects of moving objects around,\nwhat a person can be expected to know about his family, and the facts about\nbuying and selling. This doesn't depend on whether the knowledge is to be\nexpressed in a logical language or in some other formalism. When we take the\nlogic approach to AI, lack of generality shows up in that the axioms we devise\nto express common sense knowledge are too restricted in their applicability\nfor a general common sense database. In my opinion, getting a language\nfor expressing general common sense knowledge for inclusion in a general\ndatabase is the key problem of generality in AI.",
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            405,
+            566,
+            438
+          ],
+          "text": "Here are some ideas for achieving generality proposed both before and\nafter 1971. I repeat my disclaimer of comprehensiveness.",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "sec_1",
+          "bbox": [
+            122,
+            461,
+            565,
+            508
+          ],
+          "text": "1 REPRESENTING BEHAVIOR BY PRO-\nGRAM",
+          "reading_order": 3,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            121,
+            519,
+            567,
+            701
+          ],
+          "text": "Friedberg (1958 and 1959) discussed a completely general way of representing\nbehavior and provided a way of learning to improve it. Namely, the behavior\nis represented by a computer program and learning is accomplished by mak-\ning random modifications to the program and testing the modified program.\nThe Friedberg approach was successful in learning only how to move a single\nbit from one memory cell to another, and its scheme of rewarding instructions\ninvolved in successful runs by reducing their probability of modification was\nshown by Herbert Simon (a now substantiated rumor from 1987 personal\ncommunication) to be inferior to testing each program thoroughly and com-\npletely scrapping any program that wasn't perfect. No-one seems to have\nattempted to follow up the idea of learning by modifying whole programs.",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            121,
+            701,
+            567,
+            751
+          ],
+          "text": "The defect of the Friedberg approach is that while representing behaviors\nby programs is entirely general, modifying behaviors by small modifications\nto the programs is very special. A small conceptual modification to a behavior",
+          "reading_order": 5,
+          "tags": []
+        },
+        {
+          "label": "foot",
+          "bbox": [
+            338,
+            782,
+            350,
+            797
+          ],
+          "text": "2",
+          "reading_order": 6,
+          "tags": [
+            "page_num"
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "elements": [
+        {
+          "label": "half_para",
+          "bbox": [
+            122,
+            143,
+            566,
+            193
+          ],
+          "text": "is usually not represented by a small modification to the program, especially\nif machine language programs are used and any one small modification to\nthe text of a program is considered as likely as any other.",
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            193,
+            566,
+            323
+          ],
+          "text": "It might be worth trying something more analogous to genetic evolution:\nduplicates of subroutines would be made, some copies would be modified and\nothers left unchanged. The learning system would then experiment whether\nit was advantageous to change certain calls of the original subroutine to calls\nof the modified subroutine. Most likely even this wouldn't work unless the\nrelevant small modifications of behavior were obtainable by calls to slightly\nmodified subroutines. It would probably be necessary to provide for modifi-\ncations to the number of arguments of subroutines.",
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            323,
+            567,
+            387
+          ],
+          "text": "While Friedberg's problem was learning from experience, all schemes for\nrepresenting knowledge by program suffer from similar difficulties when the\nobject is to combine disparate knowledge or to make programs that modify\nknowledge.",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "sec_1",
+          "bbox": [
+            122,
+            411,
+            509,
+            433
+          ],
+          "text": "2 THE GPS AND ITS SUCCESSORS",
+          "reading_order": 3,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            447,
+            567,
+            496
+          ],
+          "text": "One kind of generality in AI comprises methods for finding solutions that are\nindependent of the problem domain. Allen Newell, Herbert Simon and their\ncolleagues and students pioneered this approach and continue to pursue it.",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            496,
+            567,
+            675
+          ],
+          "text": "Newell and Simon first proposed the General problem Solver GPS in their\n(1957) (also see (Ernst and Newell 1969) . The initial idea was to represent\nproblems of some general class as problems of transforming one expression\ninto another by means of a set of allowed rules. It was even suggested in their\n(1960) that improving GPS could be thought of as a problem of this kind.\nIn my opinion, GPS was unsuccessful as a general problem solver, because\nproblems don't take this form in general and because most of the knowledge\nabout the common sense needed for problem solving and achieving goals is\nnot simply representable in the form of rules for transforming expressions.\nHowever, GPS was the first system to separate the problem solving structure\nof goals and subgoals from the particular domain.",
+          "reading_order": 5,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            675,
+            567,
+            757
+          ],
+          "text": "If GPS had worked out to be really general, perhaps the Newell and Simon\npredictions about rapid success for AI would have been realized. Newell's cur-\nrent candidate for general problem representation is SOAR (Laird, Newell\nand Rosenbloom 1987), which, as I understand it, is concerned with trans-\nforming one state to another, where the states need not be represented by",
+          "reading_order": 6,
+          "tags": []
+        },
+        {
+          "label": "foot",
+          "bbox": [
+            338,
+            782,
+            350,
+            796
+          ],
+          "text": "3",
+          "reading_order": 7,
+          "tags": [
+            "page_num"
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "elements": [
+        {
+          "label": "half_para",
+          "bbox": [
+            122,
+            143,
+            195,
+            159
+          ],
+          "text": "expressions.",
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "sec_1",
+          "bbox": [
+            122,
+            182,
+            423,
+            206
+          ],
+          "text": "3 PRODUCTION SYSTEMS",
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            218,
+            566,
+            299
+          ],
+          "text": "The first production systems were done by Newell and Simon in the 1950s,\nand the idea was written up in their (1972) . A kind of generality is achieved\nby using the same goal seeking mechanism for all kinds of problems, changing\nonly the particular productions. The early production systems have grown\ninto the current proliferation of expert system shells.",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            299,
+            566,
+            480
+          ],
+          "text": "Production systems represent knowledge in the form of facts and rules,\nand there is almost always a sharp syntactic distinction between the two.\nThe facts usually correspond to ground instances of logical formulas, i.e.,\nthe correspond to predicate symbols applied to constant expressions. Un-\nlike logic-based systems, these facts contain no variables or quantifiers. New\nfacts are produced by inference, observation and user input. Variables are\nreserved for rules, which usually take a pattern-action form. Rules are put\nin the system by the programmer or \"knowledge engineer\" and in most sys-\ntems cannot arise via the action of the system. In exchange for accepting\nthese limitations, the production system programmer gets a relatively fast\nprogram.",
+          "reading_order": 3,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            480,
+            567,
+            610
+          ],
+          "text": "Production system programs rarely use fundamental knowledge of the\ndomain. For example, MYCIN (Buchanan and Shortliffe 1974) has many\nrules about how to infer which bacterium is causing an illness based on\nsymptoms and the result of laboratory tests. However, its formalism has no\nway of expressing the fact that bacteria are organisms that grow within the\nbody. In fact MYCIN has no way of representing processes occurring in time,\nalthough other production systems can represent processes at about the level\nof the situation calculus to be described in the next section.",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            610,
+            566,
+            758
+          ],
+          "text": "The result of a production system pattern match is a substitution of con-\nstants for variables in the pattern part of the rule. Consequently production\nsystems do not infer general propositions. For example, consider the defini-\ntion that a container is sterile if it is sealed against entry by bacteria, and\nall the bacteria in it are dead. A production system (or a logic program)\ncan only use this fact by substituting particular bacteria for the variables.\nThus it cannot reason that heating a sealed container will sterilize it given\nthat a heated bacterium dies, because it cannot reason about the unnumer-\nated set of bacteria in the container. These matters are discussed further in",
+          "reading_order": 5,
+          "tags": []
+        },
+        {
+          "label": "foot",
+          "bbox": [
+            338,
+            781,
+            350,
+            796
+          ],
+          "text": "4",
+          "reading_order": 6,
+          "tags": [
+            "page_num"
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "elements": [
+        {
+          "label": "half_para",
+          "bbox": [
+            122,
+            142,
+            228,
+            161
+          ],
+          "text": "(McCarthy 1984).",
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "sec_1",
+          "bbox": [
+            121,
+            181,
+            596,
+            207
+          ],
+          "text": "4 REPRESENTING KNOWLEDGE IN LOGIC",
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            218,
+            566,
+            268
+          ],
+          "text": "It seemed to me in 1958 that small modifications in behavior are most often\nrepresentable as small modifications in beliefs about the world, and this\nrequires a system that represents beliefs explicitly.",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            273,
+            566,
+            324
+          ],
+          "text": "“ If one wants a machine to be able to discover an abstraction, it seems most\nlikely that the machine must be able to represent this abstraction in some\nrelatively simple way ” (McCarthy 1959).",
+          "reading_order": 3,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            324,
+            566,
+            519
+          ],
+          "text": "The 1958 idea for increasing generality was to use logic to express facts\nin a way independent of the way the facts might subsequently be used. It\nseemed then and still seems that humans communicate mainly in declarative\nsentences rather than in programming languages for good objective reasons\nthat will apply whether the communicator is a human, a creature from Alpha\nCentauri or a computer program. Moreover, the advantages of declarative\ninformation also apply to internal representation. The advantage of declara-\ntive information is one of generality. The fact that when two objects collide\nthey make a noise may be used in particular situations to make a noise, to\navoid making noise, to explain a noise or to explain the absence of noise. (I\nguess those cars didn't collide, because while I heard the squeal of brakes, I\ndidn't hear a crash).",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            519,
+            566,
+            732
+          ],
+          "text": "Once one decides to build an AI system that represents information\ndeclaratively, one still has to decide what kind of declarative language to\nallow. The simplest systems allow only constant predicates applied to con-\nstant symbols, e.g. on(Block1,Block2) . Next one can allow arbitrary con-\nstant terms, built from function symbols, constants and predicate symbols,\ne.g. location(Block1) = top(Block2) . Prolog databases allow arbitrary Horn\nclauses that include free variables, e.g. $P(x,y) \\wedge Q(y,z) \\supset R(x,z)$ , expressing\nthe Prolog in standard logical notation. Beyond that lies full first order logic\nincluding both existential and universal quantifiers and arbitrary first order\nformulas. Within first order logic, the expressive power of a theory depends\non what domains the variables are allowed to range. Important expressive\npower comes from using set theory which contains expressions for sets of any\nobjects in the theory.",
+          "reading_order": 5,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            732,
+            566,
+            765
+          ],
+          "text": "Every increase in expressive power carries a price in the required com-\nplexity of the reasoning and problem solving programs. To put it another",
+          "reading_order": 6,
+          "tags": []
+        },
+        {
+          "label": "foot",
+          "bbox": [
+            339,
+            781,
+            350,
+            797
+          ],
+          "text": "5",
+          "reading_order": 7,
+          "tags": [
+            "page_num"
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "elements": [
+        {
+          "label": "half_para",
+          "bbox": [
+            122,
+            143,
+            566,
+            209
+          ],
+          "text": "way, accepting limitations on the expressiveness of one's declarative informa-\ntion allows simplification of the search procedures. Prolog represents a local\noptimum in this continuum, because Horn clauses are medium expressive but\ncan be interpreted directly by a logical problem solver.",
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            209,
+            567,
+            323
+          ],
+          "text": "One major limitation that is usually accepted is to limit the derivation\nof new facts to formulas without variables, i.e to substitute constants for\nvariables and then do propositional reasoning. It appears that most human\ndaily activity involves only such reasoning. In principle, Prolog goes slightly\nbeyond this, because the expressions found as values of variables by Prolog\nprograms can themselves involve free variables. However, this facility is rarely\nused except for intermediate results.",
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            323,
+            567,
+            389
+          ],
+          "text": "What can't be done without more of predicate calculus than Prolog allows\nis universal generalization. Consider the rationale of canning. We say that a\ncontainer is sterile if it is sealed and all the bacteria in it are dead. This can\nbe expressed as a fragment of a Prolog program as follows.",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            149,
+            402,
+            484,
+            438
+          ],
+          "text": "sterile(X)-sealed(X), nofative-bacterium(Y, X),\nalive-bacterium(Y), in(Y, X), bacterium(Y), alive(Y).",
+          "reading_order": 3,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            451,
+            567,
+            549
+          ],
+          "text": "However, a Prolog program incorporating this fragment directly can ster-\nilize a container only by killing each bacterium individually and would require\nthat some other part of the program successively generate the names of the\nbacteria. It cannot be used to discover or rationalize canning — sealing the\ncontainer and then heating it to kill all the bacteria at once. The reasoning\nrationalizing canning involves the use of quantifiers in an essential way.",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            549,
+            567,
+            599
+          ],
+          "text": "My own opinion is that reasoning and problem solving programs will\neventually have to allow the full use of quantifiers and sets and have strong\nenough control methods to use them without combinatorial explosion.",
+          "reading_order": 5,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            599,
+            567,
+            730
+          ],
+          "text": "While the 1958 idea was well received, very few attempts were made to\nembody it in programs in the immediately following years, the main one\nbeing F. Black's Harvard PhD thesis of 1964. I spent most of my time\non what I regarded as preliminary projects, mainly LISP. My main reason\nfor not attempting an implementation was that I wanted to learn how to\nexpress common sense knowledge in logic first. This is still my goal. I might\nbe discouraged from continuing to pursue it if people pursuing nonlogical\napproaches were having significant success in achieving generality.",
+          "reading_order": 6,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            730,
+            567,
+            762
+          ],
+          "text": "(McCarthy and Hayes 1969) made the distinction between epistemological\nand heuristic aspects of the AI problem and asserted that generality is more",
+          "reading_order": 7,
+          "tags": []
+        },
+        {
+          "label": "foot",
+          "bbox": [
+            338,
+            782,
+            351,
+            796
+          ],
+          "text": "6",
+          "reading_order": 8,
+          "tags": [
+            "page_num"
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "elements": [
+        {
+          "label": "half_para",
+          "bbox": [
+            122,
+            143,
+            567,
+            209
+          ],
+          "text": "easily studied epistemologically. The distinction is that the epistemology is\ncompleted when the facts available have as a consequence that a certain strat-\negy is appropriate to achieve the goal, while the heuristic problem involves\nthe search that finds the appropriate strategy.",
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            209,
+            568,
+            372
+          ],
+          "text": "Implicit in (McCarthy 1959) was the idea of a general purpose common\nsense database. The common sense information possessed by humans would\nbe written as logical sentences and included in the database. Any goal-\nseeking program could consult the database for the facts needed to decide\nhow to achieve its goal. Especially prominent in the database would be\nfacts about the effects of actions. The much studied example is the set of\nfacts about the effects of a robot trying to move objects from one location to\nanother. This led in the 1960s to the situation calculus (McCarthy and Hayes\n1969) which was intended to provide a way of expressing the consequences\nof actions independent of the problem.",
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            143,
+            373,
+            420,
+            389
+          ],
+          "text": "The basic formalism of the situation calculus is",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "equ",
+          "bbox": [
+            295,
+            401,
+            393,
+            419
+          ],
+          "text": "$$s^{\\prime}=result(e, s),$$",
+          "reading_order": 3,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            430,
+            567,
+            481
+          ],
+          "text": "which asserts that $s'$ is the situation that results when event $e$ occurs in\nsituation $s$ . Here are some situation calculus axioms for moving and painting\nblocks.",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "sec_1",
+          "bbox": [
+            122,
+            486,
+            357,
+            504
+          ],
+          "text": "Qualified Result-of-Action Axioms",
+          "reading_order": 5,
+          "tags": []
+        },
+        {
+          "label": "code",
+          "bbox": [
+            122,
+            516,
+            592,
+            535
+          ],
+          "text": "$\\forall x ls.clear(top(x),s)\\wedge clear(l,s)\\wedge \\neg tooheavy(x) \\supset loc(x,result(move(x,l),s)) = l$",
+          "reading_order": 6,
+          "tags": []
+        },
+        {
+          "label": "code",
+          "bbox": [
+            122,
+            558,
+            353,
+            577
+          ],
+          "text": "$\\forall c s.color(x, result(paint(x,c),s)) = c$.",
+          "reading_order": 7,
+          "tags": []
+        },
+        {
+          "label": "sec_1",
+          "bbox": [
+            122,
+            590,
+            223,
+            607
+          ],
+          "text": "Frame Axioms",
+          "reading_order": 8,
+          "tags": []
+        },
+        {
+          "label": "code",
+          "bbox": [
+            122,
+            630,
+            567,
+            719
+          ],
+          "text": "\\forall xys.color(y,result(move(x,l),s)) = color(y,s).\n        \\forall xys.l.y ≠ x ∃ loc(y,result(move(x,l),s)) = loc(y,s).\n        \\forall xycs.loc(x,result_paint(y,c),s)) = loc(x,s).\n        \\forall xycs.y ≠ x ∃ color(x,result_paint(y,c),s)) = color(x,s).",
+          "reading_order": 9,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            724,
+            567,
+            765
+          ],
+          "text": "Notice that all qualifications to the performance of the actions are explicit in\nthe premises and that statements (called frame axioms) about what doesn't",
+          "reading_order": 10,
+          "tags": []
+        },
+        {
+          "label": "foot",
+          "bbox": [
+            338,
+            781,
+            351,
+            796
+          ],
+          "text": "7",
+          "reading_order": 11,
+          "tags": [
+            "page_num"
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 8,
+      "elements": [
+        {
+          "label": "half_para",
+          "bbox": [
+            122,
+            143,
+            573,
+            209
+          ],
+          "text": "change when an action is performed are explicitly included. Without those\nstatements it wouldn't be possible to infer much about $result(e2, result(e1,s))$ ,\nsince we wouldn't know whether the premises for the event $e2$ to have its\nexpected result were fulfilled in $result(e1,s)$ .",
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            209,
+            566,
+            273
+          ],
+          "text": "Futhermore, it should be noticed that the situation calculus applies only\nwhen it is reasonable to reason about discrete events, each of which results\nin a new total situation. Continuous events and concurrent events are not\ncovered.",
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            274,
+            566,
+            454
+          ],
+          "text": "Unfortunately, it wasn't very feasible to use the situation calculus in\nthe manner proposed, even for problems meeting its restrictions. In the\nfirst place, using general purpose theorem provers made the programs run\ntoo slowly, since the theorem provers of 1969 (Green 1969) had no way of\ncontrolling the search. This led to STRIPS (Eikes and Nilsson 1971) which\nreduced the use of logic to reasoning within a situation. Unfortunately, the\nSTRIPS formalizations were much more special than full situation calculus.\nThe facts that were included in the axioms had to be delicately chosen in\norder to avoid the introduction of contradictions arising from the failure to\ndelete a sentence that wouldn't be true in the situation that resulted from\nan action.",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "sec_1",
+          "bbox": [
+            122,
+            477,
+            393,
+            500
+          ],
+          "text": "5   NONMONOTONICITY",
+          "reading_order": 3,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            512,
+            567,
+            741
+          ],
+          "text": "The second problem with the situation calculus axioms is that they were\nagain not general enough. This was the qualification problem , and a possible\nway around it wasn't discovered until the late 1970s. Consider putting an\naxiom in a common sense database asserting that birds can fly. Clearly\nthe axiom must be qualified in some way since penguins, dead birds and\nbirds whose feet are encased in concrete can't fly. A careful construction of\nthe axiom might succeed in including the exceptions of penguins and dead\nbirds, but clearly we can think up as many additional exceptions like birds\nwith their feet encased in concrete as we like. Formalized nonmonotonic\nreasoning (see (McCarthy 1980, 1986) , (Doyle 1977) , (McDermott and Doyle\n1980) and (Reiter 1980) ) provides a formal way of saying that a bird can\nfly unless there is an abnormal circumstance and reasoning that only the\nabnormal circumstances whose existence follows from the facts being taken\ninto account will be considered.",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            142,
+            741,
+            566,
+            758
+          ],
+          "text": "Non-monotonicity has considerably increased the possibility of expressing",
+          "reading_order": 5,
+          "tags": []
+        },
+        {
+          "label": "foot",
+          "bbox": [
+            338,
+            781,
+            350,
+            796
+          ],
+          "text": "8",
+          "reading_order": 6,
+          "tags": [
+            "page_num"
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "elements": [
+        {
+          "label": "half_para",
+          "bbox": [
+            122,
+            143,
+            567,
+            372
+          ],
+          "text": "general knowledge about the effects of events in the situation calculus. It has\nalso provided a way of solving the frame problem , which constituted another\nobstacle to generality that was already noted in (McCarthy and Hayes 1969) .\nThe frame problem (The term has been variously used, but I had it first.)\noccurs when there are several actions available each of which changes certain\nfeatures of the situation. Somehow it is necessary to say that an action changes\nonly the features of the situation to which it directly refers. When there is a\nfixed set of actions and features, it can be explicitly stated which features are\nunchanged by an action, even though it may take a lot of axioms. However, if\nwe imagine that additional features of situations and additional actions may\nbe added to the database, we face the problem that the axiomatization of\nan action is never completed. (McCarthy 1986) indicates how to handle this\nusing circumscription , but Lifschitz (1985) has shown that circumscription\nneeds to be improved and has made proposals for this.",
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            123,
+            372,
+            566,
+            405
+          ],
+          "text": "Here are some situation calculus axioms for moving and painting blocks\ntaken from (McCarthy 1986) .",
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "sec_1",
+          "bbox": [
+            123,
+            411,
+            521,
+            428
+          ],
+          "text": "Axioms about Locations and the Effects of Moving Objects",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "equ",
+          "bbox": [
+            174,
+            450,
+            513,
+            470
+          ],
+          "text": "$$\\forall x e s . \\neg a b ( a s p e c t 1 ( x , e , s ) ) \\supset l o c ( x , r e s u l t ( e , s ) ) = l o c ( x , s )$$",
+          "reading_order": 3,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            479,
+            567,
+            545
+          ],
+          "text": "asserts that objects normally do not change their locations. More specifi-\ncally, an object does not change its location unless the triple consisting of\nthe object, the event that occurs, and the situation in which it occurs are\nabnormal in apect1.",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "equ",
+          "bbox": [
+            246,
+            555,
+            442,
+            576
+          ],
+          "text": "$$\\forall x l s . a b ( a s p e c t 1 ( x . m o v e ( x , l ) , s ) )$$",
+          "reading_order": 5,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            585,
+            564,
+            602
+          ],
+          "text": "However, moving an object to a location in a situation is abnormal in aspect 1.",
+          "reading_order": 6,
+          "tags": []
+        },
+        {
+          "label": "equ",
+          "bbox": [
+            169,
+            612,
+            518,
+            631
+          ],
+          "text": "$$\\forall x l s . \\neg a b ( a s p e c t 3 ( x , l , s ) ) \\supset l o c ( x , r e s u l t ( m o v e ( x , l ) , s ) ) = l$$",
+          "reading_order": 7,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            640,
+            566,
+            673
+          ],
+          "text": "Unless the relevant triple is abnormal in aspect3, the action of moving an\nobject to a location l results in its being at l .",
+          "reading_order": 8,
+          "tags": []
+        },
+        {
+          "label": "sec_1",
+          "bbox": [
+            123,
+            679,
+            358,
+            697
+          ],
+          "text": "Axioms about Colors and Painting",
+          "reading_order": 9,
+          "tags": []
+        },
+        {
+          "label": "equ",
+          "bbox": [
+            161,
+            720,
+            524,
+            766
+          ],
+          "text": "$$\\begin{array} { r } { \\forall x e s . ~ a b ( a s p e c t 2 ( x , e , s ) ) \\supset c o l o r ( x , r e s u l t ( e , s ) ) = c o l o r ( x , s ) } \\\\ { \\forall x e s . a b ( a s p e c t 2 ( x , p a i n t ( x , c ) , s ) ) } \\end{array}$$",
+          "reading_order": 10,
+          "tags": []
+        },
+        {
+          "label": "foot",
+          "bbox": [
+            338,
+            782,
+            350,
+            797
+          ],
+          "text": "9",
+          "reading_order": 11,
+          "tags": [
+            "page_num"
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "elements": [
+        {
+          "label": "equ",
+          "bbox": [
+            161,
+            142,
+            527,
+            162
+          ],
+          "text": "$$\\forall x c s \\neg a b ( a s p e c t 4 ( x , c , s ) ) \\supset c o l o r ( x , r e s u l t ( p a i n t ( x , c ) , s ) ) = c$$",
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            123,
+            167,
+            566,
+            200
+          ],
+          "text": "Thes three axioms give the corresponding facts about what changes the color\nof an object.",
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            123,
+            200,
+            566,
+            282
+          ],
+          "text": "This treats the qualification problem, because any number of conditions\nthat may be imagined as preventing moving or painting can be added later\nand asserted to imply the corresponding ab aspect ... . It treats the frame\nproblem in that we don't have to say that moving doesn't affect colors and\npainting locations.",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            123,
+            282,
+            566,
+            396
+          ],
+          "text": "Even with formalized nonmonotonic reasoning, the general commonsense\ndatabase still seems elusive. The problem is writing axioms that satisfy our\nnotions of incorporating the general facts about a phenomenon. Whenever\nwe tentatively decide on some axioms, we are able to think of situations in\nwhich they don't apply and a generalization is called for. Moreover, the\ndifficulties that are thought of are often ad hoc like that of the bird with its\nfeet encased in concrete.",
+          "reading_order": 3,
+          "tags": []
+        },
+        {
+          "label": "sec_1",
+          "bbox": [
+            123,
+            417,
+            308,
+            442
+          ],
+          "text": "6 REIFICATION",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            123,
+            454,
+            566,
+            618
+          ],
+          "text": "Reasoning about knowledge, belief or goals requires extensions of the do-\nmain of objects reasoned about. For example, a program that does backward\nchaining on goals used them directly as sentences, e.g. on(Block1, Block2) ,\ni.e. the symbol on is used as a predicate constant of the language. How-\never, a program that wants to say directly that on(Block1, Block2) should\nbe postponed until on(Block2, Block3) has been achieved, needs a sentence\nlike precedes (on(Block2, Block3), on(Block1, Block2)) , and if this is to be a\nsentence of first-order logic, then the symbol on must be taken as a func-\ntion symbol, and on(Block1, Block2) regarded as an object in the first order\nlanguage.",
+          "reading_order": 5,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            123,
+            618,
+            565,
+            667
+          ],
+          "text": "This process of making objects out of sentences and other entities is called\nreification . It is necessary for expressive power but again leads to complica-\ntions in reasoning. It is discussed in (McCarthy 1979) .",
+          "reading_order": 6,
+          "tags": []
+        },
+        {
+          "label": "foot",
+          "bbox": [
+            335,
+            781,
+            354,
+            797
+          ],
+          "text": "10",
+          "reading_order": 7,
+          "tags": [
+            "page_num"
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 11,
+      "elements": [
+        {
+          "label": "sec_1",
+          "bbox": [
+            122,
+            137,
+            566,
+            185
+          ],
+          "text": "7 Formalizing the notion of con-\ntext",
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            197,
+            567,
+            394
+          ],
+          "text": "Whenever we write an axiom, a critic can say that the axiom is true only\nin a certain context. With a little ingenuity the critic can usually devise a\nmore general context in which the precise form of the axiom doesn't hold.\nLooking at human reasoning as reflected in language emphasizes this point.\nConsider axiomating “ on ” so as to draw appropriate consequences from\nthe information expressed in the sentence, “ The book is on the table ” . The\ncritic may propose to haggle about the precise meaning of “ on ” inventing\ndifficulties about what can be between the book and the table or about how\nmuch gravity there has to be in a spacecraft in order to use the word “ on ”\nand whether centrifugal force counts. Thus we encounter Socratic puzzles\nover what the concepts mean in complete generality and encounter examples\nthat never arise in life. There simply isn't a most general context.",
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            394,
+            567,
+            557
+          ],
+          "text": "Conversely, if we axiomatize at a fairly high level of generality, the axioms\nare often longer than is convenient in special situations. Thus humans find\nit useful to say, “ The book is on the table ” omitting reference to time and\nprecise identifications of what book and what table. This problem of how\ngeneral to be arises whether the general common sense knowledge is expressed\nin logic, in program or in some other formalism. (Some people propose that\nthe knowledge is internally expressed in the form of examples only, but strong\nmechanisms using analogy and similarity permit their more general use. I\nwish them good fortune in formulating precise proposals about what these\nmechanisms are).",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            557,
+            567,
+            738
+          ],
+          "text": "A possible way out involves formalizing the notion of context and combin-\ning it with the circumscission method of nonmonotonic reasoning. We add\na context parameter to the functions and predicates in our axioms. Each ax-\niom makes its assertion about a certain context. Further axioms tell us that\nfacts are inherited by more restricted context unless exceptions are asserted.\nEach assertions is also nonmonotonically assumed to apply in any particular\nmore general context, but there again are exceptions. For example, the rules\nabout birds flying implicitly assume that there is an atmosphere to fly in. In\na more general context this might not be assumed. It remains to determine\nhow inheritance to more general contexts differs from inheritance to more\nspecific contexts.",
+          "reading_order": 3,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            143,
+            738,
+            566,
+            756
+          ],
+          "text": "Suppose that whenever a sentence p is present in the memory of a com-",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "foot",
+          "bbox": [
+            335,
+            782,
+            353,
+            797
+          ],
+          "text": "11",
+          "reading_order": 5,
+          "tags": [
+            "page_num"
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 12,
+      "elements": [
+        {
+          "label": "half_para",
+          "bbox": [
+            122,
+            143,
+            567,
+            226
+          ],
+          "text": "puter, we consider it as in a particular context and as an abbreviation for the\nsentence holds( p , C ) where C is the name of a context. Some contexts are\nvery specific, so that Watson is a doctor in the context of Sherlock Holmes\nstories and a baritone psychologist in a tragic opera about the history of\npsychology.",
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            226,
+            567,
+            307
+          ],
+          "text": "There is a relation $cl \\leq c2$ meaning that context $c2$ is more general than\ncontext $c1$ . We allow sentences like holds $(c1 \\leq c2, c0)$ so that even statements\nrelating contexts can have contexts. The theory would not provide for any\n“ most general context ” any more than Zermelo-Frankel set theory provides\nfor a most general set.",
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            307,
+            567,
+            356
+          ],
+          "text": "A logical system using contexts might provide operations of entering and\nleaving a context yielding what we might call ultra-natural deduction allowing\na sequence of reasoning like",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "code",
+          "bbox": [
+            122,
+            359,
+            193,
+            500
+          ],
+          "text": "holds(p,C)\n ENTER C\np\n    :\nq\nLEAVE C\nholds(q,C).",
+          "reading_order": 3,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            508,
+            567,
+            557
+          ],
+          "text": "This resembles the usual logical natural deduction systems, but for reasons\nbeyond the scope of this lecture, it is probably not correct to regard contexts\nas equivalent to sets of assumptions — not even infinite sets of assumptions.",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            122,
+            558,
+            566,
+            590
+          ],
+          "text": "All this is unpleasantly vague, but it's a lot more than could be said in\n1971.",
+          "reading_order": 5,
+          "tags": []
+        },
+        {
+          "label": "sec_1",
+          "bbox": [
+            305,
+            600,
+            382,
+            618
+          ],
+          "text": "References",
+          "reading_order": 6,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            122,
+            637,
+            565,
+            669
+          ],
+          "text": "Black, F. (1964). A Deductive Question Answering System, Doctoral Dis-\nsertation, Harvard University.",
+          "reading_order": 7,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            122,
+            676,
+            565,
+            710
+          ],
+          "text": "Buchanan, B.G. and Shortliffe, E.H., eds. (1984). Rule-based expert systems:\nthe MYCIN experiments of the Stanford Heuristic Programming Project.",
+          "reading_order": 8,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            122,
+            716,
+            565,
+            765
+          ],
+          "text": "Davis, Randall; Buchanan, Bruce; and Shortliffe, Edward (1977). Production\nRules as a Representation for a Knowledge-Based Consultation Program,\nArtificial Intelligence , Volume 8, Number 1, February.",
+          "reading_order": 9,
+          "tags": []
+        },
+        {
+          "label": "foot",
+          "bbox": [
+            335,
+            781,
+            354,
+            797
+          ],
+          "text": "12",
+          "reading_order": 10,
+          "tags": [
+            "page_num"
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 13,
+      "elements": [
+        {
+          "label": "reference",
+          "bbox": [
+            123,
+            144,
+            566,
+            176
+          ],
+          "text": "Doyle, J. (1977). Truth Maintenance Systems for Problem Solving, Proc. 5th\nIJCAI , p. 247.",
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            123,
+            183,
+            566,
+            215
+          ],
+          "text": "Ernst, George W. and Allen Newell (1969). GPS: A Case Study in Generality\nand Problem Solving, Academic Press.",
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            123,
+            222,
+            566,
+            272
+          ],
+          "text": "Fikes, R. and Nils Nilsson, (1971). STRIPS: A New Approach to the Applica-\ntion of Theorem Proving to Problem Solving, Artificial Intelligence , Volume\n2, Numbers 3.4, January, pp. 189-208.",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            123,
+            279,
+            565,
+            311
+          ],
+          "text": "Friedberg, R.M. (1958). A Learning Machine, IBM Journal of Research,\nVolume 2, Number 1, January, pp. 2-13.",
+          "reading_order": 3,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            123,
+            318,
+            566,
+            350
+          ],
+          "text": "Friedberg, R.M., B. Dunham and J.H. North (1959). A Learning Machine,\nPart II, IBM Journal of Research, Volume 3, Number 3, July, pp. 282-287.",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            123,
+            357,
+            566,
+            406
+          ],
+          "text": "Green, C.(1969). Theorem-proving by Resolution as a Basis for Question\nAnswering Systems, in Machine Intelligence 4 , pp. 183-205 (eds. Meltzer,\nB. and Michie, D.). Edinburgh: Edinburgh University Press.",
+          "reading_order": 5,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            123,
+            413,
+            566,
+            446
+          ],
+          "text": "Laird, John E., Allen Newell and Paul S. Rosenbloom (1987). Soar: An\nArchitecture for General Intelligence , Artificial Intelligence 33, pp. 1–64.",
+          "reading_order": 6,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            123,
+            453,
+            567,
+            501
+          ],
+          "text": "Lifschitz, Vladimir (1985). Computing Circumscription, in Proceedings of\nthe 9th International Joint Conference on Artificial Intelligence , Volume 1,\n1985, pp. 121–127.",
+          "reading_order": 7,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            123,
+            508,
+            565,
+            557
+          ],
+          "text": "McCarthy, John (1959). Programs with Common Sense, in Proceedings of the\nTeddington Conference on the Mechanization of Thought Processes, London:\nHer Majesty's Stationery Office. (Reprinted in McCarthy 1990).",
+          "reading_order": 8,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            123,
+            564,
+            565,
+            662
+          ],
+          "text": "McCarthy, John and Patrick Hayes (1969). Some Philosophical Problems\nfrom the Standpoint of Artificial Intelligence, in B. Meltzer and D. Michie\n(eds), Machine Intelligence 4 , Edinburgh University. (Reprinted in B. L.\nWebber and N. J. Nilsson (eds.), Readings in Artificial Intelligence , Tioga,\n1981, pp. 431–450; also in M. J. Ginsberg (ed.), Readings in Nonmonotonic\nReasoning , Morgan Kaufmann, 1987, pp. 26–45; also in McCarthy 1990.)",
+          "reading_order": 9,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            123,
+            669,
+            565,
+            718
+          ],
+          "text": "McCarthy, John (1979). First Order Theories of Individual Concepts and\nPropositions, in Michie, Donald (ed.) Machine Intelligence 9 , Ellis Horwood.\n(Reprinted in McCarthy 1990.)",
+          "reading_order": 10,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            123,
+            725,
+            566,
+            757
+          ],
+          "text": "McCarthy, John (1984). Some Expert Systems Need Common Sense, in Com-\nputer Culture: The Scientific, Intellectual and Social Impact of the Computer,",
+          "reading_order": 11,
+          "tags": []
+        },
+        {
+          "label": "foot",
+          "bbox": [
+            336,
+            781,
+            353,
+            797
+          ],
+          "text": "13",
+          "reading_order": 12,
+          "tags": [
+            "page_num"
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 14,
+      "elements": [
+        {
+          "label": "reference",
+          "bbox": [
+            122,
+            145,
+            564,
+            175
+          ],
+          "text": "Heinz Pagels, ed. vol. 426, Annals of the New York Academy of Sciences.\n(Reprinted in McCarthy 1990.)",
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            122,
+            183,
+            565,
+            265
+          ],
+          "text": "McCarthy, John (1980). Circumscription — A Form of Nonmonotonic Rea-\nsoning, Artificial Intelligence , Volume 13, Numbers 1,2. (Reprinted in B. L.\nWebber and N. J. Nilsson (eds.), Readings in Artificial Intelligence , Tioga,\n1981, pp. 466–472; also in M. J. Ginsberg (ed.), Readings in Nonmonotonic\nReasoning , Morgan Kaufmann, 1987, pp. 145–152; also in McCarthy 1990.)",
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            122,
+            273,
+            566,
+            337
+          ],
+          "text": "McCarthy, John (1986). Applications of Circumscription to Formalizing\nCommon Sense Knowledge. Artificial Intelligence 28 , pp. 89–116. (Reprinted\nin M. J. Ginsberg (ed.), Readings in Nonmonotonic Reasoning , Morgan Kauf-\nmann, 1987, pp. 153–166; also in McCarthy 1990.)",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            123,
+            345,
+            506,
+            359
+          ],
+          "text": "McCarthy, John (1990). Formalizing Common Sense, Ablex 1990.",
+          "reading_order": 3,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            124,
+            368,
+            565,
+            398
+          ],
+          "text": "McDermott, D. and Doyle, J. (1980). Nonmonotonic Logic I. Artificial In-\ntelligence , Volume 13, Numbers 1-2, pp. 41-72.",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            124,
+            406,
+            565,
+            454
+          ],
+          "text": "Newell, A., J. C. Shaw and H. A. Simon (1957). Preliminary Description\nof General Problem Solving Program-1 (GPS-1), CIP Working Paper #7,\nCarnegie Institute of Technology, Dec.",
+          "reading_order": 5,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            123,
+            462,
+            564,
+            510
+          ],
+          "text": "Newell, A., J. C. Shaw and H. A. Simon, (1960). A variety of intelligent\nlearning in a General Problem Solver, in Self-Organizing Systems , Yovits,\nM.C., and Cameron, S. eds., Pergammon Press, Elmed, N.Y., pp 153-189.",
+          "reading_order": 6,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            124,
+            518,
+            564,
+            532
+          ],
+          "text": "Newell, A. and H. A. Simon (1972). Human Problem Solving, Prentice-Hall.",
+          "reading_order": 7,
+          "tags": []
+        },
+        {
+          "label": "reference",
+          "bbox": [
+            123,
+            541,
+            565,
+            572
+          ],
+          "text": "Reiter, Raymond (1980). A Logic for Default Reasoning, Artificial Intelli-\ngence , Volume 13, Numbers 1,2, April.",
+          "reading_order": 8,
+          "tags": []
+        },
+        {
+          "label": "foot",
+          "bbox": [
+            123,
+            751,
+            507,
+            763
+          ],
+          "text": "@stream.stanford.edu: /u/ftp/jmc/generality.tex: begun 1996 May 15, latexed 1996 May 15 at 1:14 p.m.",
+          "reading_order": 9,
+          "tags": []
+        },
+        {
+          "label": "foot",
+          "bbox": [
+            336,
+            781,
+            354,
+            797
+          ],
+          "text": "14",
+          "reading_order": 10,
+          "tags": [
+            "page_num"
+          ]
+        }
+      ]
+    }
+  ]
+}

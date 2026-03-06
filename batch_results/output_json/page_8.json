@@ -1,0 +1,196 @@
+[
+  {
+    "label": "header",
+    "bbox": [
+      145,
+      97,
+      189,
+      124
+    ],
+    "text": "236",
+    "reading_order": 0,
+    "tags": [
+      "page_num"
+    ]
+  },
+  {
+    "label": "header",
+    "bbox": [
+      751,
+      96,
+      1074,
+      127
+    ],
+    "text": "9 Calculus and Number Theory",
+    "reading_order": 1,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      145,
+      167,
+      522,
+      200
+    ],
+    "text": "Proof Firstly, from ( 9.14 ) we get",
+    "reading_order": 2,
+    "tags": []
+  },
+  {
+    "label": "equ",
+    "bbox": [
+      288,
+      230,
+      1071,
+      423
+    ],
+    "text": "$$\\begin{aligned}\n\\left|P_{n}-\\sum_{k=1}^{n} \\frac{\\mu(k)}{k^{2}}\\right| & =\\left|\\sum_{k=1}^{n} \\mu(k)\\left(\\frac{1}{n^{2}}\\left\\lfloor\\frac{n}{k}\\right\\rfloor^{2}-\\frac{1}{k^{2}}\\right)\\right| \\\\\n& \\leq \\sum_{k=1}^{n}\\left|\\frac{1}{k^{2}}-\\frac{1}{n^{2}}\\left\\lfloor\\frac{n}{k}\\right\\rfloor^{2}\\right| .\n\\end{aligned}\\quad(9.15)$$",
+    "reading_order": 3,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      145,
+      455,
+      1074,
+      520
+    ],
+    "text": "In order to estimate the last sum above, we claim that, given natural numbers $n$\nand $k$ such that $1 \\leq k \\leq n$ , we have",
+    "reading_order": 4,
+    "tags": []
+  },
+  {
+    "label": "equ",
+    "bbox": [
+      444,
+      550,
+      774,
+      619
+    ],
+    "text": "$$\\left| { \\frac { 1 } { k ^ { 2 } } } - { \\frac { 1 } { n ^ { 2 } } } \\left[ { \\frac { n } { k } } \\right] ^ { 2 } \\right| < { \\frac { 2 } { n k } } - { \\frac { 1 } { n ^ { 2 } } } .$$",
+    "reading_order": 5,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      145,
+      649,
+      234,
+      681
+    ],
+    "text": "Indeed,",
+    "reading_order": 6,
+    "tags": []
+  },
+  {
+    "label": "equ",
+    "bbox": [
+      288,
+      712,
+      932,
+      935
+    ],
+    "text": "$$\\begin{array} { r l } { \\frac { n } { k } - 1 < \\left\\lfloor \\frac { n } { k } \\right\\rfloor } & { \\leq \\frac { n } { k } \\Rightarrow \\frac { n ^ { 2 } } { k ^ { 2 } } - \\frac { 2 n } { k } + 1 < \\left\\lfloor \\frac { n } { k } \\right\\rfloor ^ { 2 } \\leq \\frac { n ^ { 2 } } { k ^ { 2 } } } \\\\ & { \\Rightarrow \\frac { 1 } { k ^ { 2 } } - \\frac { 2 } { k n } + \\frac { 1 } { n ^ { 2 } } < \\frac { 1 } { n ^ { 2 } } \\left\\lfloor \\frac { n } { k } \\right\\rfloor ^ { 2 } \\leq \\frac { 1 } { k ^ { 2 } } } \\\\ & { \\Rightarrow 0 \\leq \\frac { 1 } { k ^ { 2 } } - \\frac { 1 } { n ^ { 2 } } \\left\\lfloor \\frac { n } { k } \\right\\rfloor ^ { 2 } < \\frac { 2 } { k n } - \\frac { 1 } { n ^ { 2 } } , } \\end{array}$$",
+    "reading_order": 7,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      145,
+      962,
+      267,
+      995
+    ],
+    "text": "as wished.",
+    "reading_order": 8,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      179,
+      996,
+      799,
+      1029
+    ],
+    "text": "Back to (9.15), we obtain from the above estimates that",
+    "reading_order": 9,
+    "tags": []
+  },
+  {
+    "label": "equ",
+    "bbox": [
+      312,
+      1060,
+      908,
+      1148
+    ],
+    "text": "$$\\left| P _ { n } - \\sum _ { k = 1 } ^ { n } { \\frac { \\mu ( k ) } { k ^ { 2 } } } \\right| < \\sum _ { k = 1 } ^ { n } \\left( { \\frac { 2 } { n k } } - { \\frac { 1 } { n ^ { 2 } } } \\right) = { \\frac { 2 } { n } } \\sum _ { k = 1 } ^ { n } { \\frac { 1 } { k } } - { \\frac { 1 } { n } } .$$",
+    "reading_order": 10,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      145,
+      1177,
+      533,
+      1211
+    ],
+    "text": "Now, from L'Hôpital's rule we get",
+    "reading_order": 11,
+    "tags": []
+  },
+  {
+    "label": "equ",
+    "bbox": [
+      321,
+      1244,
+      898,
+      1330
+    ],
+    "text": "$$\\frac { 2 } { n } \\sum _ { k = 1 } ^ { n } \\frac { 1 } { k } < \\frac { 2 } { n } \\left( 1 + \\int _ { 1 } ^ { n } \\frac { 1 } { t } d t \\right) = \\frac { 2 } { n } ( \\log n + 1 ) \\to 0$$",
+    "reading_order": 12,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      145,
+      1360,
+      384,
+      1392
+    ],
+    "text": "as $n \\to +\\infty$. Hence,",
+    "reading_order": 13,
+    "tags": []
+  },
+  {
+    "label": "equ",
+    "bbox": [
+      445,
+      1421,
+      771,
+      1508
+    ],
+    "text": "$$\\lim _ { n \\to + \\infty } \\left( \\frac { 2 } { n } \\sum _ { k = 1 } ^ { n } \\frac { 1 } { k } - \\frac { 1 } { n } \\right) = 0 ,$$",
+    "reading_order": 14,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      145,
+      1541,
+      572,
+      1574
+    ],
+    "text": "and our previous estimates assure that",
+    "reading_order": 15,
+    "tags": []
+  }
+]

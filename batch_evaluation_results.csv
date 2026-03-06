@@ -1,0 +1,11 @@
+Document_ID,WER,CER,Substitutions,Deletions,Insertions,Text_Accuracy,Structure_Score,Table_Structure_Score,Layout_Score,Processing_Time_Seconds,Status
+page_0.jpeg,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,387.91,Processing Failed
+page_1.png,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,407.38,Processing Failed
+page_2.jpeg,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,434.66,Processing Failed
+page_3.jpeg,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,481.9,Processing Failed
+page_4.png,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,336.39,Processing Failed
+page_5.jpg,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,584.6,Processing Failed
+page_6.pdf,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,600.66,Processing Failed
+page_7.jpeg,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,353.58,Processing Failed
+page_8.jpeg,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,386.59,Processing Failed
+page_9.jpeg,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,449.55,Processing Failed

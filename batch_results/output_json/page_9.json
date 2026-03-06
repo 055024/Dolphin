@@ -1,0 +1,368 @@
+[
+  {
+    "label": "header",
+    "bbox": [
+      20,
+      73,
+      63,
+      99
+    ],
+    "text": "2 期",
+    "reading_order": 0,
+    "tags": [
+      "meta_num"
+    ]
+  },
+  {
+    "label": "header",
+    "bbox": [
+      295,
+      72,
+      717,
+      100
+    ],
+    "text": "徐晓峰等：TDZ：一种有效的植物生长调节剂",
+    "reading_order": 1,
+    "tags": [
+      "author"
+    ]
+  },
+  {
+    "label": "header",
+    "bbox": [
+      954,
+      75,
+      991,
+      98
+    ],
+    "text": "235",
+    "reading_order": 2,
+    "tags": [
+      "page_num"
+    ]
+  },
+  {
+    "label": "sec_1",
+    "bbox": [
+      414,
+      153,
+      599,
+      186
+    ],
+    "text": "参  考  文  献",
+    "reading_order": 3,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      22,
+      212,
+      707,
+      236
+    ],
+    "text": "周俊彦，郭扶兴，1990. 苯基脲衍生物的细胞分裂素活性. 植物生理学通讯，4:7~13",
+    "reading_order": 4,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      22,
+      241,
+      762,
+      265
+    ],
+    "text": "徐晓峰，黄学林，2002. 应用正交设计建立青花菜植株的再生体系. 广西植物，22：513 ~ 516",
+    "reading_order": 5,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      22,
+      274,
+      991,
+      324
+    ],
+    "text": "Akasaka Y, Daimon H, Mii M. 2000. Improved plant regeneration from cultured leaf segments in peanut (Arachis hypogaea L.) by\nlimited exposure to thidiazuron. Plant Science, 156:169 ~ 175",
+    "reading_order": 6,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      23,
+      332,
+      896,
+      354
+    ],
+    "text": "Babiker A G T, Parker G, Suttle J G, 1992. Induction of Striga seed germination by TDZ. Weed Res, 32:243 ~ 248",
+    "reading_order": 7,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      22,
+      360,
+      987,
+      411
+    ],
+    "text": "Baker B S, Bhatia S K, 1993. Factors effecting adventitious shoot regeneration from leaf explants of quince (Cydonia oblonga).\nPlant Cell Tissue Organ Cult, 35:273 ~ 277",
+    "reading_order": 8,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      22,
+      419,
+      990,
+      470
+    ],
+    "text": "Baker C M, Wetzstein H Y, 1994. Influence of auxin type and concentration on peanut somatic embryogenesis. Plant Cell Tissue Or-\ngan Culture, 36:361 ~ 368",
+    "reading_order": 9,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      23,
+      479,
+      992,
+      529
+    ],
+    "text": "Baskakov Y A, Shapovalov A A, Zhirmanskaya N M, 1981 . Interrelationship of growth-regulating activity and phytotoxicity of syn-\nthetic cytokinins. Dokl Akad Nauk SSSR, 267:1514 ~ 1517",
+    "reading_order": 10,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      22,
+      536,
+      990,
+      587
+    ],
+    "text": "Bates S, Preece J E, Navarrete N E, 1992. TDZ stimulates shoot organogenesis and somatic embryogenesis in white ash (Fraxinus\namericana L.). Plant Cell Tissue Organ Culture, 31:21 ~ 29",
+    "reading_order": 11,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      23,
+      594,
+      986,
+      644
+    ],
+    "text": "Bhattacharya J, Khuspe S S. 2001. In vitro and in vivo germination of papaya ( Carica papaya L. ) seeds. Scientia Horticulturae,\n91: 39 ~ 49",
+    "reading_order": 12,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      22,
+      653,
+      826,
+      675
+    ],
+    "text": "Biddington N L, 1992. The influence of ethylene in plant tissue culture. Plant Growth Regul., 11:173 ~ 187",
+    "reading_order": 13,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      23,
+      682,
+      991,
+      733
+    ],
+    "text": "Burkhanova E A, Fedina A B, Baskakov A, Yu A, 1984. A comparative study of the effects of 6-benzylaninopurine, TDZ and car-\ntolin on the grown of intact pumpkin seedlings. Fiziol Rast (Engl Transl) Plant Physiol, 31 :13 ~ 19",
+    "reading_order": 14,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      22,
+      740,
+      991,
+      790
+    ],
+    "text": "Capelle S C, Mok D W S, Kirchner S C, 1983. Effects of TDZ on cytokinin autonomy and the metabolism of N6-(DELTA2-isopen-\ntenyl) [8-14C] adenosine in callus tissues of Phaseolus lanatus L. Plant Physiol, 73:796 ~ 802",
+    "reading_order": 15,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      22,
+      798,
+      992,
+      850
+    ],
+    "text": "Chatfield J M, Armstrong D J, 1986. Regulation of cytokinin oxidase activity in callus tissues of Phaseolus vulgaris L. cv. Great\nNorthern. Plant Physiol., 80:493 ~ 499",
+    "reading_order": 16,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      22,
+      857,
+      991,
+      908
+    ],
+    "text": "Chernyad’ev I I, Kozlovskikh A L, 1990. Effects of 6-benzylaminopurine, TDZ, and cartolin on activity of photosynthetic enzymes\nand ATP content in leaves of perennial grasses. Sov Plant Physiol, 37:251 ~ 256",
+    "reading_order": 17,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      22,
+      916,
+      992,
+      966
+    ],
+    "text": "Chupeau M C, Lemoine M, Chupeau Y, 1993. Requirement of TDZ for healthy protoplast development to efficient tree regeneration\nof a hybrid poplar (Populus tremula × P. alba) . J Plant Phsiol, 141 :601 ~ 609",
+    "reading_order": 18,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      22,
+      974,
+      992,
+      1024
+    ],
+    "text": "Coleman W K, Estabrooks E N, O’Hara M, 1992. Seasonal changes in cold hardiness, sucrose and sorbitol in apple trees treated\nwith plant growth regulators. J Hort Sci , 67 :429 ~ 435",
+    "reading_order": 19,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      22,
+      1033,
+      987,
+      1080
+    ],
+    "text": "Cook R, Meyer Y, 1981. The hormonal control of tobacco protoplast nucleic acid metabolism during in vitro culture. Planta, 152:\n1 ~ 7",
+    "reading_order": 20,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      22,
+      1090,
+      991,
+      1137
+    ],
+    "text": "Devlin R M, Zbiec I I, Nowicka S E, 1989. The effect of TDZ on some plant growth systems. Proc Plant Growth Regul Soc, 16:99\n~103",
+    "reading_order": 21,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      22,
+      1149,
+      985,
+      1200
+    ],
+    "text": "Ferrante A, Donald A H, Wesley P H, Michael S R, 2002. Thidiazuron—a potent inhibitor of leaf senescence in Alstroemeria.\nPostharvest Biology and Technology , 25 : 333 ~ 338",
+    "reading_order": 22,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      22,
+      1208,
+      991,
+      1258
+    ],
+    "text": "Gabbar A, Babiker T, Butler L G, 1993. Enhancement of ethylene biosynthesis and germination by cytokinins and 1-amniocyclo-\npropane-1-carboxylic acid in Striga asiatica seeds. Physiol Plant , 89 :21 ~ 26",
+    "reading_order": 23,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      23,
+      1266,
+      990,
+      1316
+    ],
+    "text": "Gill R, Saxena P K. 1992. Direct somatic embryogenesis and regeneration of plants from seedling explants of peanut ( Arachis hy-\npogaea) : promotive role of TDZ. Can J Bot, 70:1186~1192",
+    "reading_order": 24,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      22,
+      1324,
+      991,
+      1374
+    ],
+    "text": "Gill R, Saxena P K, 1993. Somatic embryogenesis in Nicotiana tabacum L: induction by TDZ of direct embryo differentiation from\ncultured leaf discs . Plant Cell Rep, 12 :154 ~ 159",
+    "reading_order": 25,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      22,
+      1383,
+      986,
+      1431
+    ],
+    "text": "Grossmann K, 1991. Induction of leaf abscission in cotton is a common effect of urea and adenine-type cytokinins. Plant Physiol,\n95:234 ~ 237",
+    "reading_order": 26,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      22,
+      1441,
+      990,
+      1491
+    ],
+    "text": "Hare P D, Van Staden J, 1994. Inhibitory effect of thidiazuron on the activity of cytokinin oxidase isolated from soybean callus. Plant\nCell Physiol, 35: 1121 ~ 1125",
+    "reading_order": 27,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      22,
+      1499,
+      988,
+      1547
+    ],
+    "text": "Henry R J, 1995. TDZ increases basal bud and shoot development in Spathiphyllum 'Petite'. Plant Growth Regul Soc Am Quart,\n23:13 ~ 16",
+    "reading_order": 28,
+    "tags": []
+  },
+  {
+    "label": "reference",
+    "bbox": [
+      22,
+      1559,
+      985,
+      1578
+    ],
+    "text": "Huetteman C A, Preece J E, 1993. TDZ: a potent cytokinin for woody plant tissue culture. Plant Cell Tissue Organ Cult, 33:105 ~",
+    "reading_order": 29,
+    "tags": []
+  }
+]

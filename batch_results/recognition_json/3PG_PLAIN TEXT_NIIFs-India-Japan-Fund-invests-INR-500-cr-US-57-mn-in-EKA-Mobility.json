@@ -1,0 +1,411 @@
+{
+  "source_file": "./test-docs/3PG_PLAIN TEXT_NIIFs-India-Japan-Fund-invests-INR-500-cr-US-57-mn-in-EKA-Mobility.pdf",
+  "total_pages": 3,
+  "pages": [
+    {
+      "page_number": 1,
+      "elements": [
+        {
+          "label": "fig",
+          "text": "![Figure](figures/3PG_PLAIN TEXT_NIIFs-India-Japan-Fund-invests-INR-500-cr-US-57-mn-in-EKA-Mobility_page_001_figure_000.png)",
+          "figure_path": "figures/3PG_PLAIN TEXT_NIIFs-India-Japan-Fund-invests-INR-500-cr-US-57-mn-in-EKA-Mobility_page_001_figure_000.png",
+          "bbox": [
+            80,
+            42,
+            177,
+            81
+          ],
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "fig",
+          "text": "![Figure](figures/3PG_PLAIN TEXT_NIIFs-India-Japan-Fund-invests-INR-500-cr-US-57-mn-in-EKA-Mobility_page_001_figure_001.png)",
+          "figure_path": "figures/3PG_PLAIN TEXT_NIIFs-India-Japan-Fund-invests-INR-500-cr-US-57-mn-in-EKA-Mobility_page_001_figure_001.png",
+          "bbox": [
+            492,
+            40,
+            614,
+            73
+          ],
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "sec_1",
+          "bbox": [
+            88,
+            106,
+            603,
+            142
+          ],
+          "text": "NIF's India-Japan Fund invests INR 500 cr (US$ 57 m) in EKA Mobility to accelerate India's\ntransition to sustainable commercial transportation",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            158,
+            601,
+            210
+          ],
+          "text": "India-Japan Fund (\"IJP\"), a fund managed by National Investment and Infrastructure Fund Limited\n(\"NIIF\"), announces an investment of INR 500 cr (US$ 57 mn) in EKA Mobility, a leading electric vehicle\nmanufacturer focusing on commercial vehicles.",
+          "reading_order": 3,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            220,
+            603,
+            254
+          ],
+          "text": "This aligns with IIF's objective to invest in the climate segment and also further accelerate investments\nin the India-Japan corridor.",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            269,
+            593,
+            321
+          ],
+          "text": "EKA Mobility, a subsidiary of Pinnacle Industries, has one of the widest ranges of electric commercial\n\nvehicles developed with in-house R&D and technological capabilities, ably supported by indigenous\n\nsoftware and engineering capabilities.",
+          "reading_order": 5,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            336,
+            596,
+            387
+          ],
+          "text": "The capital infusion from IJF is expected to support EKA Mobility's plans to increase its manufacturing\ncapacity, advance research and development initiatives, improve its supply chain infrastructure, and\nenhance its marketing efforts aimed at domestic and international markets.",
+          "reading_order": 6,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            402,
+            594,
+            436
+          ],
+          "text": "EKA Mobility's existing shareholders include VDL Groep (Netherlands), Mitsui & Co., Ltd. (Japan), and\nENAM Holdings (India).",
+          "reading_order": 7,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            451,
+            611,
+            574
+          ],
+          "text": "Krishna Kumar, Partner & Fund Head-IJF, said, \"Our investment in EKA Mobility continues to reflect our\nconfidence in India's electric mobility potential and the capability of homegrown OEMs to drive\nmeaningful change in the market. IJF is supporting enterprises that are shaping India's journey to a low-\ncarbon economy, and also committed to promoting India-Japan business partnerships. We are glad to\nsupport Eka Mobility's growth in the sustainable commercial transportation segment, wherein it\ncombines its technical, design capabilities and manufacturing infrastructure to take advantage of India's\ntransition in the mobility segment.\"",
+          "reading_order": 8,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            588,
+            610,
+            711
+          ],
+          "text": "Makato Uchida, Senior Managing Director at Japan Bank for International Cooperation (JIBC) and\nExecutive Director at JIBC IG Partners, said,\n\"We welcome IIF's partnership with EKA Mobility, reflecting\nthe fund's commitment to invest in opportunities that contribute to environmental preservation in India\nas well as to promote collaboration between Indian and Japanese companies. Together with our partner\nNIIF, JIBC group -including our subsidiary JIBC IG Partners, which is supporting NIIF in promoting\nJapanese investments in India through the IIF initiative - will continue to contribute to deepening the\nbilateral relationship between India and Japan.\n\"",
+          "reading_order": 9,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            726,
+            598,
+            812
+          ],
+          "text": "Dr. Sudhir Mehta, Founder & Chairman of EKA Mobility, added,\n\"We are proud to have NII as a\nstrategic partner in our growth journey. This investment comes at a crucial time as we expand\noperations, strengthen our R&D and accelerate the adoption of electric mobility across India. NII's\nsupport reinforces our shared vision of creating sustainable, inclusive, and future-ready transportation\nsolutions.\n\"",
+          "reading_order": 10,
+          "tags": []
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "elements": [
+        {
+          "label": "fig",
+          "text": "![Figure](figures/3PG_PLAIN TEXT_NIIFs-India-Japan-Fund-invests-INR-500-cr-US-57-mn-in-EKA-Mobility_page_002_figure_000.png)",
+          "figure_path": "figures/3PG_PLAIN TEXT_NIIFs-India-Japan-Fund-invests-INR-500-cr-US-57-mn-in-EKA-Mobility_page_002_figure_000.png",
+          "bbox": [
+            80,
+            42,
+            177,
+            78
+          ],
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "fig",
+          "text": "![Figure](figures/3PG_PLAIN TEXT_NIIFs-India-Japan-Fund-invests-INR-500-cr-US-57-mn-in-EKA-Mobility_page_002_figure_001.png)",
+          "figure_path": "figures/3PG_PLAIN TEXT_NIIFs-India-Japan-Fund-invests-INR-500-cr-US-57-mn-in-EKA-Mobility_page_002_figure_001.png",
+          "bbox": [
+            492,
+            40,
+            614,
+            73
+          ],
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            93,
+            590,
+            143
+          ],
+          "text": "The collaboration between NIF and EKA Mobility aligns with the Government of India's stated\n\nobjectives on electrification of public transport and promotion of domestic manufacturing under the\n\nMake-in-India and Atmanirbarh Bharat initiatives.",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            159,
+            607,
+            245
+          ],
+          "text": "The company's portfolio of zero-emission vehicles spans electric buses (7m, 9m, and 12m variants),\n\nintegrity coaches, 3-wheeler passenger and cargo vehicles, heavy-duty trucks (55T and 7T) and small\n\ncommercial vehicles in the 1.5T, 2.5T, and 3.5T categories. The company has confirmed orders for over\n\n3,300 electric buses as part of state government procurements, municipal corporation contracts, and\n\nprivate commercial fleets.",
+          "reading_order": 3,
+          "tags": []
+        },
+        {
+          "label": "sec_1",
+          "bbox": [
+            79,
+            261,
+            422,
+            276
+          ],
+          "text": "About National Investment and Infrastructure Fund Limited (NIF)",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            292,
+            611,
+            397
+          ],
+          "text": "NIF is India's sovereign-anchored alternative asset manager, catalysing global capital to invest in sectors\nand asset classes that play an important role in India's growth journey. Anchored by the Government of\nIndia in partnership with leading global investors, NIF manages USD 4.9 billion in equity capital\ncommitments across four strategies—Infrastructure, Private Markets, Growth Equity, and Climate\nInvestments. NIF seeks to deliver superior returns by investing in commercially attractive sectors and\nasset classes in India, while generating positive environmental and social impact.",
+          "reading_order": 5,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            411,
+            611,
+            534
+          ],
+          "text": "India-Japan Fund (IJF) is NIF’s first bilateral fund with a corpus of INR 4900 Crore, with the Government\nof India (“Gol”) contributing 49% and the remaining 51% contributed by the Japan Bank for International\nCooperation (“JIB”), a policy based financial institution wholly owned by the Government of Japan. IJF\nfocuses on investing in India’s climate and energy transition sectors, including renewable energy, e-\nmobility, and circular economy sectors such as waste management and water. Moreover, IJF also aims\nto promote investments by Japanese companies in India, including collaboration between Indian and\nJapanese companies across sectors.",
+          "reading_order": 6,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            549,
+            451,
+            564
+          ],
+          "text": "For additional information, please visit NIIF's website at www.niifindia.in",
+          "reading_order": 7,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            580,
+            222,
+            595
+          ],
+          "text": "Follow us on LinkedIn (NIIIF)",
+          "reading_order": 8,
+          "tags": []
+        },
+        {
+          "label": "sec_1",
+          "bbox": [
+            79,
+            616,
+            159,
+            630
+          ],
+          "text": "Media Contact",
+          "reading_order": 9,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            633,
+            360,
+            650
+          ],
+          "text": "Viraj Nair, Vice President - Corporate Communications",
+          "reading_order": 10,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            652,
+            193,
+            666
+          ],
+          "text": "viraj.nair@niifindia.in",
+          "reading_order": 11,
+          "tags": []
+        },
+        {
+          "label": "sec_1",
+          "bbox": [
+            79,
+            682,
+            338,
+            698
+          ],
+          "text": "About EKA (Pinnacle Mobility Solutions Pvt. Ltd.):",
+          "reading_order": 12,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            713,
+            608,
+            782
+          ],
+          "text": "EKA (Pinnacle Mobility Solutions Pvt. Ltd.), with Mitsui & Co., Ltd. (Japan) & VDI Groep (Netherlands) as\n\nequity partners, is an automotive & technology company creating a new global CV electric mobility\n\nparadigm. EKA’s vision is to lead the world to a sustainable future by creating an ecosystem for\n\nEnvironment-Conscious Mobility.",
+          "reading_order": 13,
+          "tags": []
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "elements": [
+        {
+          "label": "fig",
+          "text": "![Figure](figures/3PG_PLAIN TEXT_NIIFs-India-Japan-Fund-invests-INR-500-cr-US-57-mn-in-EKA-Mobility_page_003_figure_000.png)",
+          "figure_path": "figures/3PG_PLAIN TEXT_NIIFs-India-Japan-Fund-invests-INR-500-cr-US-57-mn-in-EKA-Mobility_page_003_figure_000.png",
+          "bbox": [
+            80,
+            42,
+            174,
+            77
+          ],
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "fig",
+          "text": "![Figure](figures/3PG_PLAIN TEXT_NIIFs-India-Japan-Fund-invests-INR-500-cr-US-57-mn-in-EKA-Mobility_page_003_figure_001.png)",
+          "figure_path": "figures/3PG_PLAIN TEXT_NIIFs-India-Japan-Fund-invests-INR-500-cr-US-57-mn-in-EKA-Mobility_page_003_figure_001.png",
+          "bbox": [
+            492,
+            40,
+            614,
+            73
+          ],
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            93,
+            583,
+            160
+          ],
+          "text": "With an industry-leading team, cutting-edge technology, modular designs, and lean manufacturing\nprocesses, EKA’s mission is to bring reliable and efficient mobility solutions to the masses. EKA’s\nsharable technologies and low-investment production processes enable the lowest TCO and\ndemocratize electric vehicles for mass adaptation.",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            177,
+            323,
+            193
+          ],
+          "text": "To know more about Eka Mobility, kindly visit:",
+          "reading_order": 3,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            208,
+            206,
+            223
+          ],
+          "text": "https://ekamobility.com",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            240,
+            159,
+            254
+          ],
+          "text": "Media Contact",
+          "reading_order": 5,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            79,
+            257,
+            387,
+            289
+          ],
+          "text": "Haritha Singh, Head- Corporate Communications, PR & CSR\nharitha.s@exkmobility.com\n+91-70301-52828",
+          "reading_order": 6,
+          "tags": []
+        }
+      ]
+    }
+  ]
+}

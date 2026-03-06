@@ -1,0 +1,208 @@
+[
+  {
+    "label": "header",
+    "bbox": [
+      418,
+      143,
+      1337,
+      172
+    ],
+    "text": "186    Chapter 7. THE ZETA FUNCTION AND PRIME NUMBER THEOREM",
+    "reading_order": 0,
+    "tags": [
+      "page_num"
+    ]
+  },
+  {
+    "label": "half_para",
+    "bbox": [
+      416,
+      206,
+      923,
+      242
+    ],
+    "text": "which holds for $0 \\le x < 1$, we find that",
+    "reading_order": 1,
+    "tags": []
+  },
+  {
+    "label": "equ",
+    "bbox": [
+      493,
+      270,
+      1259,
+      359
+    ],
+    "text": "$$\\log \\zeta ( s ) = \\log \\prod _ { p } \\frac { 1 } { 1 - p ^ { - s } } = \\sum _ { p } \\log \\left( \\frac { 1 } { 1 - p ^ { - s } } \\right) = \\sum _ { p , m } \\frac { p ^ { - m s } } { m } .$$",
+    "reading_order": 2,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      416,
+      388,
+      1339,
+      603
+    ],
+    "text": "Since the double sum converges absolutely, we need not specify the order\nof summation. See the Note at the end of this chapter. The formula\nthen holds for all $\\text{Re}(s) > 1$ by analytic continuation. Note that, by\nTheorem 6.2 in Chapter 3, $\\log \\zeta(s)$ is well defined in the simply connected\nhalf-plane $\\text{Re}(s) > 1$, since $\\zeta$ has no zeros there. Finally, it is clear that\nwe have",
+    "reading_order": 3,
+    "tags": []
+  },
+  {
+    "label": "equ",
+    "bbox": [
+      728,
+      620,
+      1026,
+      711
+    ],
+    "text": "$$\\sum _ { p , m } \\frac { p ^ { - m s } } { m } = \\sum _ { n = 1 } ^ { \\infty } c _ { n } n ^ { - s } ,$$",
+    "reading_order": 4,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      418,
+      742,
+      1043,
+      781
+    ],
+    "text": "where $c_n = 1/m$ if $n = p^m$ and $c_n = 0$ otherwise.",
+    "reading_order": 5,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      418,
+      799,
+      1338,
+      871
+    ],
+    "text": "The proof of the theorem we shall give depends on a simple trick that\nis based on the following inequality.",
+    "reading_order": 6,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      418,
+      891,
+      1081,
+      927
+    ],
+    "text": "Lemma 1.4 If $\\theta \\in \\mathbb{R}$, then $3+4\\cos\\theta+\\cos2\\theta \\geq 0$.",
+    "reading_order": 7,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      445,
+      949,
+      1072,
+      985
+    ],
+    "text": "This follows at once from the simple observation",
+    "reading_order": 8,
+    "tags": []
+  },
+  {
+    "label": "equ",
+    "bbox": [
+      656,
+      1020,
+      1098,
+      1051
+    ],
+    "text": "$$3 + 4 \\cos \\theta + \\cos 2 \\theta = 2 ( 1 + \\cos \\theta ) ^ { 2 } .$$",
+    "reading_order": 9,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      418,
+      1086,
+      971,
+      1122
+    ],
+    "text": "Corollary 1.5 If $\\sigma>1$ and $t$ is real, then",
+    "reading_order": 10,
+    "tags": []
+  },
+  {
+    "label": "equ",
+    "bbox": [
+      656,
+      1153,
+      1095,
+      1188
+    ],
+    "text": "$$\\log \\left| \\zeta ^ { 3 } ( \\sigma ) \\zeta ^ { 4 } ( \\sigma + i t ) \\zeta ( \\sigma + 2 i t ) \\right| \\geq 0 .$$",
+    "reading_order": 11,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      445,
+      1221,
+      916,
+      1258
+    ],
+    "text": "Proof. Let $s = \\sigma + i t$ and note that",
+    "reading_order": 12,
+    "tags": []
+  },
+  {
+    "label": "equ",
+    "bbox": [
+      440,
+      1288,
+      1313,
+      1324
+    ],
+    "text": "$$Re\\left(n^{-s}\\right)=Re\\left(e^{-(\\sigma+i t) \\log n}\\right)=e^{-\\sigma \\log n} \\cos (t \\log n)=n^{-\\sigma} \\cos (t \\log n) .$$",
+    "reading_order": 13,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      418,
+      1359,
+      553,
+      1394
+    ],
+    "text": "Therefore,",
+    "reading_order": 14,
+    "tags": []
+  },
+  {
+    "label": "equ",
+    "bbox": [
+      529,
+      1418,
+      1229,
+      1614
+    ],
+    "text": "$$\\begin{aligned}\n& \\log \\left|\\zeta^{3}(\\sigma) \\zeta^{4}(\\sigma+i t) \\zeta(\\sigma+2 i t)\\right| \\\\\n= & 3 \\log |\\zeta(\\sigma)|+4 \\log |\\zeta(\\sigma+i t)|+\\log |\\zeta(\\sigma+2 i t)| \\\\\n= & 3 Re[\\log \\zeta(\\sigma)]+4 Re[\\log \\zeta(\\sigma+i t)]+Re[\\log \\zeta(\\sigma+2 i t)] \\\\\n= & \\sum c_{n} n^{-\\sigma}\\left(3+4 \\cos \\theta_{n}+\\cos 2 \\theta_{n}\\right),\n\\end{aligned}$$",
+    "reading_order": 15,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      416,
+      1645,
+      1339,
+      1717
+    ],
+    "text": "where $\\theta_n = t \\log n$. The positivity now follows from Lemma 1.4, and the\nfact that $c_n \\geq 0$.",
+    "reading_order": 16,
+    "tags": []
+  }
+]

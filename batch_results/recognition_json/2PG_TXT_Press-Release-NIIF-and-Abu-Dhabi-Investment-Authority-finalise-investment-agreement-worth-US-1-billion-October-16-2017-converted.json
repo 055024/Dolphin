@@ -1,0 +1,270 @@
+{
+  "source_file": "./test-docs/2PG_TXT_Press-Release-NIIF-and-Abu-Dhabi-Investment-Authority-finalise-investment-agreement-worth-US-1-billion-October-16-2017-converted.pdf",
+  "total_pages": 2,
+  "pages": [
+    {
+      "page_number": 1,
+      "elements": [
+        {
+          "label": "fig",
+          "text": "![Figure](figures/2PG_TXT_Press-Release-NIIF-and-Abu-Dhabi-Investment-Authority-finalise-investment-agreement-worth-US-1-billion-October-16-2017-converted_page_001_figure_000.png)",
+          "figure_path": "figures/2PG_TXT_Press-Release-NIIF-and-Abu-Dhabi-Investment-Authority-finalise-investment-agreement-worth-US-1-billion-October-16-2017-converted_page_001_figure_000.png",
+          "bbox": [
+            493,
+            41,
+            598,
+            112
+          ],
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "header",
+          "bbox": [
+            190,
+            130,
+            443,
+            145
+          ],
+          "text": "National Investment and Infrastructure Fund (NIIF)",
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "sec_1",
+          "bbox": [
+            88,
+            157,
+            543,
+            198
+          ],
+          "text": "NIIF and Abu Dhabi Investment Authority finalise investment agreement\n\nworth US$1 billion",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            73,
+            238,
+            560,
+            284
+          ],
+          "text": "Mumbai, 16 October, 2017: The National Investment and Infrastructure Fund (NIF) of India is\npleased to announce the signing of an investment agreement worth US$1 billion with a wholly\nowned subsidiary of the Abu Dhabi Investment Authority (ADIA).",
+          "reading_order": 3,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            73,
+            296,
+            560,
+            345
+          ],
+          "text": "As part of the comprehensive partnership agreement, ADIA will become the first institutional\ninvestor in NIIIF's Master Fund and a shareholder in National Investment and Infrastructure Limited,\nthe NIIIF's investment management company.",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            73,
+            356,
+            561,
+            437
+          ],
+          "text": "Sujoy Bose, Chief Executive Officer of NIF, said: \"This agreement marks the culmination of an\nextensive process of collaboration with ADIA to develop an investment structure that is attractive to\ninternational investors while remaining closely aligned with the NIF's objectives. We are proud to\nhave ADIA as our founding partner, and grateful for its support and contributions to date, and we\nnow look forward to announcing further agreements with other investors.\"",
+          "reading_order": 5,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            73,
+            449,
+            560,
+            531
+          ],
+          "text": "Khadem AlRemiethi, Executive Director of the Real Estate & Infrastructure Department at ADIA,\nsaid: \"The NIIF is set to play an important role in facilitating the flow of foreign capital into India's\ninfrastructure sector. As a long-standing investor in India and in infrastructure globally, ADIA\nwelcomes the opportunity to be the first to partner with NIIF in a platform that is sure to be of\ninterest to other long-term institutional investors.\"",
+          "reading_order": 6,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            287,
+            570,
+            345,
+            584
+          ],
+          "text": "--ENDS--",
+          "reading_order": 7,
+          "tags": []
+        },
+        {
+          "label": "sec_2",
+          "bbox": [
+            73,
+            596,
+            172,
+            611
+          ],
+          "text": "NOTES TO EDITORS",
+          "reading_order": 8,
+          "tags": []
+        },
+        {
+          "label": "sec_3",
+          "bbox": [
+            73,
+            624,
+            129,
+            638
+          ],
+          "text": "About NIIF",
+          "reading_order": 9,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            73,
+            651,
+            560,
+            732
+          ],
+          "text": "NIIF is a fund manager that seeks to create long-term value for domestic and international investors\nseeking to invest in energy, transportation, housing, water, waste management and other\ninfrastructure-related sectors in India. NIIF, an institution sponsored by the Government of India, is a\ncollaborative investment platform for international and Indian investors. To learn more about NIIF,\nvisit www.nifindia.in.",
+          "reading_order": 10,
+          "tags": []
+        },
+        {
+          "label": "sec_3",
+          "bbox": [
+            73,
+            744,
+            135,
+            758
+          ],
+          "text": "About ADIA",
+          "reading_order": 11,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            73,
+            770,
+            560,
+            802
+          ],
+          "text": "Since 1976, the Abu Dhabi Investment Authority (ADA) has been prudently investing funds on behalf\nof the Government of Abu Dhabi, with a focus on long-term value creation.",
+          "reading_order": 12,
+          "tags": []
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "elements": [
+        {
+          "label": "fig",
+          "text": "![Figure](figures/2PG_TXT_Press-Release-NIIF-and-Abu-Dhabi-Investment-Authority-finalise-investment-agreement-worth-US-1-billion-October-16-2017-converted_page_002_figure_000.png)",
+          "figure_path": "figures/2PG_TXT_Press-Release-NIIF-and-Abu-Dhabi-Investment-Authority-finalise-investment-agreement-worth-US-1-billion-October-16-2017-converted_page_002_figure_000.png",
+          "bbox": [
+            493,
+            40,
+            599,
+            112
+          ],
+          "reading_order": 0,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            73,
+            130,
+            559,
+            178
+          ],
+          "text": "ADIA manages a global investment portfolio that is diversified across more than two-dozen asset\n\nclasses and sub-categories. With a long tradition of prudent investing, ADIA's decisions are based\n\nsolely on its economic objectives of delivering sustained long-term financial returns.",
+          "reading_order": 1,
+          "tags": []
+        },
+        {
+          "label": "sec_1",
+          "bbox": [
+            74,
+            219,
+            214,
+            232
+          ],
+          "text": "For further details contact -",
+          "reading_order": 2,
+          "tags": []
+        },
+        {
+          "label": "sec_2",
+          "bbox": [
+            75,
+            247,
+            139,
+            258
+          ],
+          "text": "Adfactors PR",
+          "reading_order": 3,
+          "tags": []
+        },
+        {
+          "label": "sec_3",
+          "bbox": [
+            75,
+            261,
+            131,
+            272
+          ],
+          "text": "Anita Bhoir",
+          "reading_order": 4,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            75,
+            275,
+            263,
+            302
+          ],
+          "text": "Mobility Number - 9930390055\nEmail ID: amita.bhoj@adifactorspr.com",
+          "reading_order": 5,
+          "tags": []
+        },
+        {
+          "label": "sec_3",
+          "bbox": [
+            75,
+            319,
+            168,
+            331
+          ],
+          "text": "Prachiti Dhopatkar",
+          "reading_order": 6,
+          "tags": []
+        },
+        {
+          "label": "para",
+          "bbox": [
+            75,
+            333,
+            297,
+            359
+          ],
+          "text": "Mobile Number: 9202294050\nEmail ID: prachiti.dhoparkar@aafactorspr.com",
+          "reading_order": 7,
+          "tags": []
+        }
+      ]
+    }
+  ]
+}

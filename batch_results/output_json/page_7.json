@@ -1,0 +1,126 @@
+[
+  {
+    "label": "fig",
+    "text": "![Figure](figures/page_7_figure_000.png)",
+    "figure_path": "figures/page_7_figure_000.png",
+    "bbox": [
+      112,
+      138,
+      1224,
+      527
+    ],
+    "reading_order": 0,
+    "tags": []
+  },
+  {
+    "label": "cap",
+    "bbox": [
+      103,
+      532,
+      1230,
+      633
+    ],
+    "text": "Figure 2. Example results on ImageNet validation images. For each triplet, we show the masked image (left), our MAE reconstruction $^\\dagger$\n(middle), and the ground-truth (right). The masking ratio is 80 % , leaving only 39 out of 196 patches. More examples are in the appendix.\n$^\\dagger$ As no loss is computed on visible patches, the model output on visible patches is qualitatively worse. One can simply overlay the output with the visible\npatches to improve visual quality. We intentionally opt not to do this, so we can more comprehensively demonstrate the method's behavior.",
+    "reading_order": 1,
+    "tags": []
+  },
+  {
+    "label": "fig",
+    "text": "![Figure](figures/page_7_figure_002.png)",
+    "figure_path": "figures/page_7_figure_002.png",
+    "bbox": [
+      112,
+      643,
+      1224,
+      841
+    ],
+    "reading_order": 2,
+    "tags": []
+  },
+  {
+    "label": "cap",
+    "bbox": [
+      103,
+      843,
+      1229,
+      895
+    ],
+    "text": "Figure 3. Example results on COCO validation images, using an MAE trained on ImageNet (the same model weights as in Figure 2 ).\nObserve the reconstructions on the two right-most examples, which, although different from the ground truth, are semantically plausible.",
+    "reading_order": 3,
+    "tags": []
+  },
+  {
+    "label": "half_para",
+    "bbox": [
+      103,
+      928,
+      646,
+      1145
+    ],
+    "text": "derstanding of parts, objects, and scenes. To overcome this\ndifference and encourage learning useful features, we show\nthat a simple strategy works well in computer vision: mask-\ning a very high portion of random patches. This strategy\nlargely reduces redundancy and creates a challenging self-\nsupervisory task that requires holistic understanding beyond\nlow-level image statistics. To get a qualitative sense of our\nreconstruction task, see Figures 2 – 4 .",
+    "reading_order": 4,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      103,
+      1148,
+      646,
+      1418
+    ],
+    "text": "( iii ) The autoencoder's decoder , which maps the latent\nrepresentation back to the input, plays a different role be-\ntween reconstructing text and images. In vision, the decoder\nreconstructs pixels , hence its output is of a lower semantic\nlevel than common recognition tasks. This is in contrast\nto language, where the decoder predicts missing words that\ncontain rich semantic information. While in BERT the de-\ncoder can be trivial (an MLP) [ 14 ] , we found that for im-\nages, the decoder design plays a key role in determining the\nsemantic level of the learned latent representations.",
+    "reading_order": 5,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      103,
+      1421,
+      646,
+      1612
+    ],
+    "text": "Driven by this analysis, we present a simple, effective,\nand scalable form of a masked autoencoder (MAE) for\nvisual representation learning. Our MAE masks random\npatches from the input image and reconstructs the missing\npatches in the pixel space. It has an asymmetric encoder-\ndecoder design. Our encoder operates only on the visible\nsubset of patches (without mask tokens), and our decoder is",
+    "reading_order": 6,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      689,
+      928,
+      1231,
+      1200
+    ],
+    "text": "lightweight and reconstructs the input from the latent rep-\nresentation along with mask tokens (Figure 1 ). Shifting\nthe mask tokens to the small decoder in our asymmetric\nencoder-decoder results in a large reduction in computation.\nUnder this design, a very high masking ratio ( e.g. , 75 % ) can\nachieve a win-win scenario: it optimizes accuracy while al-\nlowing the encoder to process only a small portion ( e.g. ,\n25 % ) of patches. This can reduce overall pre-training time\nby $3\\times$ or more and likewise reduce memory consumption,\nenabling us to easily scale our MAE to large models.",
+    "reading_order": 7,
+    "tags": []
+  },
+  {
+    "label": "para",
+    "bbox": [
+      689,
+      1204,
+      1231,
+      1611
+    ],
+    "text": "Our MAE learns very high-capacity models that gen-\neralize well. With MAE pre-training, we can train data-\nhungry models like ViT-Large/-Huge [ 16 ] on ImageNet-1K\nwith improved generalization performance. With a vanilla\nViT-Huge model, we achieve 87.8 % accuracy when fine-\ntuned on ImageNet-1K. This outperforms all previous re-\nsults that use only ImageNet-1K data. We also evaluate\ntransfer learning on object detection, instance segmentation,\nand semantic segmentation. In these tasks, our pre-training\nachieves better results than its supervised pre-training coun-\nterparts, and more importantly, we observe significant gains\nby scaling up models. These observations are aligned\nwith those witnessed in self-supervised pre-training in NLP\n[ 14 , 47 , 48 , 4 ] and we hope that they will enable our field to\nexplore a similar trajectory.",
+    "reading_order": 8,
+    "tags": []
+  },
+  {
+    "label": "foot",
+    "bbox": [
+      658,
+      1651,
+      675,
+      1675
+    ],
+    "text": "2",
+    "reading_order": 9,
+    "tags": [
+      "page_num"
+    ]
+  }
+]
