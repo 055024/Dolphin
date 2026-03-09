@@ -8,9 +8,9 @@
 
 ```bash
 # 1. Clone and setup
-git clone https://github.com/055024/Dolphin.git
+GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/055024/Dolphin.git
 cd Dolphin
-./setup_gpu_system.sh
+./setup_gpu_system.sh  # This downloads the model automatically
 
 # 2. Add your PDFs
 cp /path/to/your/pdfs/*.pdf ./test-docs/
@@ -24,6 +24,8 @@ cat test_docs_evaluation_results_FINAL.csv
 ```
 
 **Done!** Your documents are parsed, evaluated, and results are in CSV format. 🎉
+
+> **Note**: Use `GIT_LFS_SKIP_SMUDGE=1` when cloning to avoid Git LFS errors. The model files (~7.5GB) will be downloaded automatically by the setup script from Hugging Face. See `CLONE_INSTRUCTIONS.md` if you encounter issues.
 
 ---
 

@@ -1,10 +1,13 @@
 # 🚀 Quick Start - Dolphin Batch Processing on New GPU System
 
-## One-Line Setup
+## Important: Clone Instructions
 
 ```bash
-git clone https://github.com/055024/Dolphin.git && cd Dolphin && ./setup_gpu_system.sh
+# Use this to avoid Git LFS errors
+GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/055024/Dolphin.git && cd Dolphin && ./setup_gpu_system.sh
 ```
+
+> **Why?** The large model files (~7.5GB) need to be downloaded from Hugging Face, not Git LFS. The setup script handles this automatically. See `CLONE_INSTRUCTIONS.md` for details.
 
 ---
 
@@ -12,9 +15,9 @@ git clone https://github.com/055024/Dolphin.git && cd Dolphin && ./setup_gpu_sys
 
 ### 1️⃣ Clone & Setup
 ```bash
-git clone https://github.com/055024/Dolphin.git
+GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/055024/Dolphin.git
 cd Dolphin
-./setup_gpu_system.sh  # Automated setup (downloads model, installs deps)
+./setup_gpu_system.sh  # Automated setup (downloads model from Hugging Face, installs deps)
 ```
 
 ### 2️⃣ Add Documents
